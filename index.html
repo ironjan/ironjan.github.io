@@ -3,11 +3,5 @@ layout: default
 ---
 
 {% for post in site.posts %}
-<div>
-  <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
-  <div>
-    <span class="right">{{post.date | date: '%d.%m.%Y'}}</span>
-    {{post.excerpt}}
-  </div>
-<div>
+  {% include post-excerpt.html %}
 {% endfor %}
