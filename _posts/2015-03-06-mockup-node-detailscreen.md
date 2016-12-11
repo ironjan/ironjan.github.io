@@ -13,9 +13,7 @@ categories:
 ---
 Some mockups for a node detail screen&#8230; Looking for a designer nonetheless 😉
 
-[
-  
-](http://ironjan.de/wp-content/uploads/2015/03/off.png) [<img class="alignnone size-medium wp-image-333" src="http://ironjan.de/wp-content/uploads/2015/03/on-205x400.png" alt="Mock: online freifunk node" width="205" height="400" srcset="http://ironjan.de/wp-content/uploads/2015/03/on-205x400.png 205w, http://ironjan.de/wp-content/uploads/2015/03/on-102x200.png 102w, http://ironjan.de/wp-content/uploads/2015/03/on.png 395w" sizes="(max-width: 205px) 100vw, 205px" />](http://ironjan.de/wp-content/uploads/2015/03/on.png)
+<img class="alignnone size-medium wp-image-333" src="http://ironjan.de/wp-content/uploads/2015/03/on-205x400.png" alt="Mock: online freifunk node" width="205" height="400" srcset="http://ironjan.de/wp-content/uploads/2015/03/on-205x400.png 205w, http://ironjan.de/wp-content/uploads/2015/03/on-102x200.png 102w, http://ironjan.de/wp-content/uploads/2015/03/on.png 395w" sizes="(max-width: 205px) 100vw, 205px" />
 
 &nbsp;
 
