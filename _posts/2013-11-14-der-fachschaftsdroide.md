@@ -14,7 +14,7 @@ Da der Fachschaftsdroide sich nun im Alpha-Stadium befindet, musste eine Seite z
 
 Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf <https://github.com/ironjan/MensaUPB> [0]
 
-Download: [fsdroid-alpha-0.0](http://ironjan.de/wp-content/uploads/2013/11/fsdroid-alpha-0.0.apk)
+Download: [fsdroid-alpha-0.0]({{ site.url }}/uploads/2013/11/fsdroid-alpha-0.0.apk)
 
 Features:
 

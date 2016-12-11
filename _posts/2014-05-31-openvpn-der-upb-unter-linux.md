@@ -14,6 +14,6 @@ Auf den Seiten des IMT findet sich eine [Anleitung zum Einrichten des VPN-Zugrif
   * Beide Pfade (upb-network-ca.pem und Network_Certificate.p12) müssen in der Datei enthalten sein und absolut angegeben werden
   * &#8220;resolv-retry infinite&#8221; wurde entfernt (der oben genannte Freeze wurde durch eine Endlosschleife verursacht)
 
-Hier eine von mir minimal korrigierte [openvpn-upb](http://ironjan.de/wp-content/uploads/2014/05/openvpn-upb.conf). Die Pfade (s.o.) müssen noch korrigiert werden.
+Hier eine von mir minimal korrigierte [openvpn-upb]({{ site.url }}/uploads/2014/05/openvpn-upb.conf). Die Pfade (s.o.) müssen noch korrigiert werden.
 
 Edit: broken Link durch Redesign der Uni-Homepage gefixt.

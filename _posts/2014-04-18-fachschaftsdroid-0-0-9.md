@@ -10,4 +10,4 @@ categories:
   - Fachschaftsdroide
   - Projekte
 ---
-Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: [fsdroid-v0.0.9](http://ironjan.de/wp-content/uploads/2014/04/fsdroid-v0.0.9.apk)
+Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: [fsdroid-v0.0.9]({{ site.url }}/uploads/2014/04/fsdroid-v0.0.9.apk)

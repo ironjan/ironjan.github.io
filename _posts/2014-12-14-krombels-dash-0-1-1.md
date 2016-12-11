@@ -12,6 +12,6 @@ categories:
 ---
 Kleinere fixes, und Anpassungen an das Krombel Design.
 
-Deinstallation vor update notwendig: [krombel-0.1.1](http://ironjan.de/wp-content/uploads/2014/12/krombel-0.1.1.apk)
+Deinstallation vor update notwendig: [krombel-0.1.1]({{ site.url }}/uploads/2014/12/krombel-0.1.1.apk)
 
-[<img class="alignnone size-medium wp-image-266" src="http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-205x400.png" alt="ffpb-krombel" width="205" height="400" srcset="http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-205x400.png 205w, http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-102x200.png 102w, http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel.png 522w" sizes="(max-width: 205px) 100vw, 205px" />](http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel.png)
+[<img class="alignnone size-medium wp-image-266" src="http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-205x400.png" alt="ffpb-krombel" width="205" height="400" srcset="http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-205x400.png 205w, http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel-102x200.png 102w, http://ironjan.de/wp-content/uploads/2014/12/ffpb-krombel.png 522w" sizes="(max-width: 205px) 100vw, 205px" />]({{ site.url }}/uploads/2014/12/ffpb-krombel.png)

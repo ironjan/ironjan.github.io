@@ -12,7 +12,7 @@ categories:
 ---
 Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf <https://github.com/ironjan/MensaUPB>.
 
-Download: [fsdroid-0.0.2](http://ironjan.de/wp-content/uploads/2013/11/fsdroid-0.0.2.apk)
+Download: [fsdroid-0.0.2]({{ site.url }}/uploads/2013/11/fsdroid-0.0.2.apk)
 
 Fehlermeldungen/Feature-Wünsche bitte per Mail an mich.
 
