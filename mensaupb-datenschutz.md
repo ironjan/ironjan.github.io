@@ -8,7 +8,7 @@ guid: http://ironjan.de/?page_id=350
 ---
 Hier wird erklärt, welche Daten von MensaUPB erfasst werden und wozu diese genutzt werden.
 
-**Welche Daten werden z**u welchem Zweck werden die Daten** erhoben?**
+**Welche Daten werden erfasst und zu welchem Zweck werden die Daten erhoben?**
 
 Es wird erfasst, welche Funktionen von MensaUPB genutzt werden und wie oft. Hierbei wird sich auf eine möglichst kleine Auswahl beschränkt, um möglichst wenige Daten zu erfassen. Ziel ist es, gut genutzte Funktionen zu verbessern und überflüssige Funktionen zu identifizieren.
 
