@@ -9,6 +9,7 @@ permalink: /2014/12/30/cleaning-some-data-with-clojure-3/
 categories:
   - All
   - Programming
+  - Data
 ---
 The first post in this series was about [the original problem](http://ironjan.de/cleaning-some-data-with-clojure-1/ "Cleaning some data with Clojure 1"): there is a data-set of strings with potential duplicates and many typos. The second was about [computing the similarity of two strings](http://ironjan.de/cleaning-some-data-with-clojure-2/ "Cleaning some data with Clojure 2"). In this post we will focus on the question
 

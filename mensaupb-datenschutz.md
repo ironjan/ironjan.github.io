@@ -3,7 +3,7 @@ id: 350
 title: Datenschutz
 date: 2015-06-03T13:58:22+00:00
 author: ironjan
-layout: post
+layout: page
 guid: http://ironjan.de/?page_id=350
 ---
 Hier wird erklärt, welche Daten von MensaUPB erfasst werden und wozu diese genutzt werden.

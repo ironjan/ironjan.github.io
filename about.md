@@ -1,74 +1,39 @@
 ---
-title: About Hagura
-layout: post
-date: 2016-11-02
+id: 115
+title: Über mich
+date: 2013-11-14T22:19:23+00:00
+author: ironjan
+layout: page
+guid: http://ironjan.de/?page_id=115
 ---
 
+Informatik-Student aus Paderborn. Mag:
 
-![sample post]({{site.baseurl}}/images/image-3.png)
+  * Minimalismus
+  * Open Source
+  * Musik, insbesondere Metal
+  * und weiteres&#8230;
 
-![sample post]({{site.baseurl}}/images/image-3.png){: style="width: 100%"}
+## Aktuelle Projekte
 
+Es kann weitere Projekte geben, die ich vergessen habe, aufzuführen. Deshalb lohnt sich ein Blick auf mein [github-Profil](https://github.com/ironjan).
 
-# Header 1
+<img src="http://ironjan.de/wp-content/uploads/2014/04/mo_icon.png" alt="Metal Only Icon" width="64" height="64" />
 
-## Header 2
+Die **Metal Only** App ermöglicht, den Stream von [metal-only.de](http://www.metal-only.de/) auf Android zu hören.
 
-### Header 3
+Näheres gibt es im [Play Store](https://play.google.com/store/apps/details?id=com.codingspezis.android.metalonly.player) oder auf <http://codingspezis.com/projekte/metal-only>.
 
-#### Header 4
+Der Quellcode der App ist auf [github](https://github.com/Codingspezis/metal-only/) zu finden.
 
-##### Header 5
+<img src="http://ironjan.de/wp-content/uploads/2014/04/ic_launcher-400x400.png" alt="MensaUPB Icon" width="64" height="64" />
 
-###### Header 6
+**MensaUPB** zeigt die Speisepläne des Studentenwerks Paderborn. Sie wurde von nacheinander von mehreren Entwicklern &#8211; David Maicher, Tony Lemke und mir &#8211; entwickelt, und ist nun endlich wieder im [Play Store](https://play.google.com/store/apps/details?id=de.ironjan.mensaupb).
 
+Der Quellcode ist ebenfalls auf [github](https://github.com/ironjan/MensaUPB).
 
+<img src="http://ironjan.de/wp-content/uploads/2014/04/ccd_icon-400x400.png" alt="CCD Icon" width="64" height="64" />
 
-## Paragraphs
+**CCD** sollte als Offline-Nachschlagewerk für [clean-code-developer.de](http://clean-code-developer.de/) dienen. Dieses Projekt ist zur Zeit pausiert. Für den Code siehe [github](https://github.com/ironjan/CCD).
 
-These are sample paragraphs showing *italics*, **bold** and ``code`` text style. Here is an unordered  list 
-
-* Item 1
-* Item 2
-* Item 3
-
-and an ordered list
-
-1. Item 1
-2. Item 2
-3. Item 3
-
->A blockquote would look like this.
-
-> another one 
->
-> with multiple lines
-
-
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-A code block would look like this.
-{% highlight html %}
-
-<div class="nav">
-    <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Project</li>
-    </ul>
-</div>
-
-
-{% endhighlight %}
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-
-
-Use below code to show **Table of Contents** on a page
-
-{% highlight css %}
-* Do not remove this line (it will not be displayed) 
-{:toc}
-{% endhighlight %}
+&nbsp;
