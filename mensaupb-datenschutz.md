@@ -1,6 +1,6 @@
 ---
 id: 350
-title: Datenschutz
+title: Mensa UPB Datenschutz
 date: 2015-06-03T13:58:22+00:00
 author: ironjan
 layout: page
