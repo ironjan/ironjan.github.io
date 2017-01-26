@@ -17,9 +17,9 @@ categories:
 
 **Levenshtein Distance:** My first idea was to use the [Levenshtein Distance](http://en.wikipedia.org/wiki/Levenshtein_distance "Levenshtein Distance on wikipedia"). This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:<figure id="attachment_280" style="width: 400px" class="wp-caption alignnone">
 
-[<img class="size-medium wp-image-280" src="/uploads/2014/12/Levenshtein_distance-400x75.png" alt="Definition of Levenshtein Distance" width="400" height="75" srcset="/uploads/2014/12/Levenshtein_distance-400x75.png 400w, /uploads/2014/12/Levenshtein_distance-200x37.png 200w, /uploads/2014/12/Levenshtein_distance.png 587w" sizes="(max-width: 400px) 100vw, 400px" />]({{ site.url }}/uploads/2014/12/Levenshtein_distance.png)<figcaption class="wp-caption-text">Definition of Levenshtein Distance</figcaption></figure> 
+[<img class="size-medium wp-image-280" src="/wp-content/uploads/2014/12/Levenshtein_distance-400x75.png" alt="Definition of Levenshtein Distance" width="400" height="75" srcset="/wp-content/uploads/2014/12/Levenshtein_distance-400x75.png 400w, /wp-content/uploads/2014/12/Levenshtein_distance-200x37.png 200w, /wp-content/uploads/2014/12/Levenshtein_distance.png 587w" sizes="(max-width: 400px) 100vw, 400px" />]({{ site.url }}/uploads/2014/12/Levenshtein_distance.png)<figcaption class="wp-caption-text">Definition of Levenshtein Distance</figcaption></figure> 
 
-[<img class=" size-full wp-image-281 alignleft" src="/uploads/2014/12/indicator_function.png" alt="indicator_function" width="55" height="21" />]({{ site.url }}/uploads/2014/12/indicator_function.png)denotes the indicator function, which is equal to 0 when the i-th character of a is equal to the j-th character of b. Otherwise it&#8217;s 1.
+[<img class=" size-full wp-image-281 alignleft" src="/wp-content/uploads/2014/12/indicator_function.png" alt="indicator_function" width="55" height="21" />]({{ site.url }}/uploads/2014/12/indicator_function.png)denotes the indicator function, which is equal to 0 when the i-th character of a is equal to the j-th character of b. Otherwise it&#8217;s 1.
 
 Transforming this into clojure-code is fairly simple, given the definitions. First, the indicator-function:
 
