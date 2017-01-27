@@ -9,11 +9,11 @@ categories:
   - Auslandssemester
 ---
 
+[!["Flowers of Life" at Unioninkatu 38](/uploads/2017/01/Lux_Helsinki_20170109_215609.jpg)](http://www.luxhelsinki.fi/en/installation/flowers-of-life/)
+
 Durch Zufall bin ich gerade noch rechtzeitig für [Lux Helsinki](http://www.luxhelsinki.fi/en) hier 
 angekommen. Diese Gelegenheit hab ich genutzt, um einmal durch die Stadt zu streifen und ein paar 
 Fotos zu machen.
-
-[!["Flowers of Life" at Unioninkatu 38](/uploads/2017/01/Lux_Helsinki_20170109_215609.jpg)](http://www.luxhelsinki.fi/en/installation/flowers-of-life/)
  <!--more-->
 
 Lux Helsinki ist ein "Licht-Festival" und dementsprechend gab es jede Menge Licht-Installationen in 
