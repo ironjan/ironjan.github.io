@@ -10,6 +10,7 @@ highlighter: rouge
 markdown: kramdown
 excerpt_separator: <!--more-->
 future: true
+permalink: /:year/:month/:day/:title.html
 
 #optimization
 #compress.html
