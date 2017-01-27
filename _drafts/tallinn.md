@@ -1,6 +1,5 @@
 ---
 title: Tagesausflug nach Tallinn
-date: 2017-01-30T14:00:00+00:00
 author: ironjan
 layout: post
 categories:
