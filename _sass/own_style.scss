@@ -1,0 +1,31 @@
+.navigation {
+  a {
+    padding-right: 1em;
+  }
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.h3, .h4 {
+  display: inline-block;
+  float: left;
+}
+.right {
+  display: inline-block;
+  float: right;
+}
+
+.clear-float {
+}
+
+.post {
+  margin-bottom: 4em;
+  float: clear;
+  display: inline-block;
+}
+
+.excerp p {
+  -webkit-margin-after: 0em;
+}
