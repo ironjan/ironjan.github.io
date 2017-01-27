@@ -6,7 +6,7 @@ layout: post
 categories:
   - All
   - Helsinki
-  - Abroad
+  - Auslandssemester
 ---
 
 Durch Zufall bin ich gerade noch rechtzeitig für [Lux Helsinki](http://www.luxhelsinki.fi/en) hier 
