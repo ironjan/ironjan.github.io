@@ -1,0 +1,21 @@
+---
+
+{% assign year = page.date | date: "%Y" %}
+{% assign month = page.date | date: "%m" %}
+
+{% capture fullPath %}/uploads/{{ year }}/{{ month }}/{{ include.name }}{% endcapture %}
+
+<figure>
+  {% if include.caption %}
+    <img src="{{ fullPath }}" 
+      {% if include.alt %} alt="{{ include.alt }}" {% endif %}
+      {% if include.width %} width="{{ include.width }}" {% endif %}
+    />
+    <figcaption>{{ include.caption }}</figcaption>
+  {% else %}
+    <img src="{{ fullPath }}" 
+      {% if include.alt %} alt="{{ include.alt }}" {% endif %}
+      {% if include.width %} width="{{ include.width }}" {% endif %}
+    />
+  {% endif %}
+</figure>
