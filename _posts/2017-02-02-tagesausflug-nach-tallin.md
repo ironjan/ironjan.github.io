@@ -1,5 +1,6 @@
 ---
 title: Tagesausflug nach Tallinn
+date: 2017-02-02T22:00:00+00:00
 author: ironjan
 layout: post
 categories:
@@ -8,6 +9,7 @@ categories:
   - Auslandssemester
 ---
 
+{% include image name="Tallinn_20170122_130227.jpg" alt="Blick über die Stadt " %}
 
 Eckeröline hat zur Zeit ein sehr gutes Winterangebot: extrem günstige Tagesausflüge nach Tallinn. 
 Diese Gelegenheit haben einige andere Studenten und ich vor ca. zwei Wochen genutzt, um Tallinn zu
@@ -51,8 +53,6 @@ gehört mit den verbleibenden 2km Mauer zu den am besterhaltensten Befestigungsa
 
 Vom Hafen kommend geht es immer weiter bergauf. Oben auf dem "Berg" gibt es verschiedene Dinge zu 
 sehen. Auf den Aussichtsplattformen hat man einen [schönen Blick über die Stadt](/uploads/2017/02/Tallinn_20170122_130201.jpg).
-
-{% include image name="Tallinn_20170122_130227.jpg" alt="Blick über die Stadt " %}
 
 ### Freedom Square
 
