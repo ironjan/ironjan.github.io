@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Metal-Only
+title: Metal Only
 date: 2017-02-06T15:00:00+00:00
 ---
 
