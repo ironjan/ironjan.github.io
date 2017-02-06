@@ -3,7 +3,11 @@
   <span class="right">{{post.date | date: '%d.%m.%Y'}}</span>
   <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
 
-   {{post.excerpt}}
-    
-  <a class="right" href="{{post.url | prepend: site.baseurl}}">Post ganz lesen</a>
+  {% assign is_full_post = (post.excerpt == post.content) %}
+  {% if is_full_post %}
+    {{ post.content }}
+  {% else %}
+    {{ post.excerpt }}
+    <a class="right" href="{{post.url | prepend: site.baseurl}}">Post ganz lesen</a>
+  {% endif %}
 </div>
