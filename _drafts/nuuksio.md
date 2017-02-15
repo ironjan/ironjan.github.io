@@ -25,16 +25,15 @@ date: 2017-02-02T22:00:00+00:00
  * Kein Foto, da wir nach der ersten Hälfte der Wanderung sehr hungrig waren
  * Lektiion fürs nächste mal: Salz und Pfeffer ins Gepäck
  * Zwischendurch haben wir auch einen Schlenker von der eigentlichen Route weggemacht, um auf einen Aussichtshügel zu klettern
- * Dort ist dieses Panorama entstanden
-{% include image name="Nuuksio_20170204_151233.jpg" alt="" caption="panorama wald" %}
-  
+ * Der Hügel bot die perfekte Gelegenheit für ein [Panorama-Bild](Nuuksio_20170204_151233.jpg).
+
 
  * Am beeindruckendsten waren die zugefrorenen Seen
  * Sind über mehrere davon spaziert
  * Haben unterwegs einige Wandergruppen oder Familienausflüge gesehen
  * Es gab auch einige Eisfischer
-* im großen hier einer der Seen:  {% include image name="Nuuksio_20170204_144714.jpg" alt="" caption="Panorama See" %}
-
+ * im großen gibt es einen der Seen auf [diesem See-Panorama](Nuuksio_20170204_144714.jpg) zu sehen
+ 
 {% include image name="Nuuksio_20170204_150141.jpg" alt="" caption="Wanderung über See" %}
 {% include image name="Nuuksio_20170204_144727.jpg" alt="" caption="See" %}
 
