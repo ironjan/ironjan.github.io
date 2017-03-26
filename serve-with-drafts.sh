@@ -1,2 +1,2 @@
 #!/bin/bash
-jekyll serve --drafts
+jekyll serve --drafts --incremental
