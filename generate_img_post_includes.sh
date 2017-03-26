@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in $(ls $1);
+for arg in "$@";
 do
-  echo "{% include image name=\"$i\" alt=\"TODO\" %}" 
+  echo "{% include image name=\"$arg\" alt=\"TODO\" %}" 
 done
