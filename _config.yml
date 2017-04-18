@@ -9,7 +9,7 @@ description: >
 highlighter: rouge
 markdown: kramdown
 excerpt_separator: <!--more-->
-future: true
+future: false
 permalink: /:year/:month/:day/:title.html
 
 #optimization
