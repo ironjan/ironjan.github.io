@@ -1,3 +1,5 @@
+# Jan's blog
+
 The template _includes/image is based on  https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html 
 and was adapted to my folder structure.
 
