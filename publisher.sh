@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # times are in seconds
-SLEEP_TIME=43200
+SLEEP_TIME=3600
 PROD_START_TIME=000000 # UTC. 
 PROD_END___TIME=235959 # UTC. We're sleeping 12 hours a day so this is not really necessary
 
