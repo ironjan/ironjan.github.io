@@ -16,24 +16,48 @@ Informatik-Student aus Paderborn. Mag:
 
 ## Aktuelle Projekte
 
-Es kann weitere Projekte geben, die ich vergessen habe, aufzuführen. Deshalb lohnt sich ein Blick auf mein [github-Profil](https://github.com/ironjan).
+Es kann weitere Projekte geben, die ich vergessen habe, aufzuführen. Deshalb lohnt sich ein Blick auf mein 
+[github-Profil](https://github.com/ironjan).
 
-<img src="/wp-content/uploads/2014/04/mo_icon.png" alt="Metal Only Icon" width="64" height="64" />
+<div class="app-carousel">
+  <div>
+    <ul>
+      <li>
+        <a href="https://play.google.com/store/apps/details?id=com.codingspezis.android.metalonly.player">
+          <img src="/wp-content/uploads/2014/04/mo_icon.png" 
+          alt="Metal Only App Icon" title="Metal Only App Icon" 
+          width="128" height="128" />
+        </a>
+      </li>
+      <li>
+        <a href="https://play.google.com/store/apps/details?id=com.codingspezis.android.metalonly.player">
+          <img src="/wp-content/uploads/2014/04/ic_launcher-400x400.png" 
+          alt="MensaUPB App Icon" title="MensaUPB App Icon" 
+          width="128" height="128" />
+        </a>
+      </li>
+      <li>
+        <a href="https://play.google.com/store/apps/details?id=com.github.ironjan.ccd">
+          <img src="/wp-content/uploads/2014/04/ccd_icon-400x400.png" 
+          alt="CCD App Icon" title="CCD App Icon" 
+          width="128" height="128" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-Die **Metal Only** App ermöglicht, den Stream von [metal-only.de](http://www.metal-only.de/) auf Android zu hören.
-
-Näheres gibt es im [Play Store](https://play.google.com/store/apps/details?id=com.codingspezis.android.metalonly.player) oder auf <http://codingspezis.com/projekte/metal-only>.
-
+Die **Metal Only** App ermöglicht, den Stream von [metal-only.de](http://www.metal-only.de/) auf Android zu hören. Die 
+App selbst gibt es im [Play Store](https://play.google.com/store/apps/details?id=com.codingspezis.android.metalonly.player). 
 Der Quellcode der App ist auf [github](https://github.com/Codingspezis/metal-only/) zu finden.
 
-<img src="/wp-content/uploads/2014/04/ic_launcher-400x400.png" alt="MensaUPB Icon" width="64" height="64" />
 
-**MensaUPB** zeigt die Speisepläne des Studentenwerks Paderborn. Sie wurde von nacheinander von mehreren Entwicklern &#8211; David Maicher, Tony Lemke und mir &#8211; entwickelt, und ist nun endlich wieder im [Play Store](https://play.google.com/store/apps/details?id=de.ironjan.mensaupb).
+**MensaUPB** zeigt die Speisepläne des Studentenwerks Paderborn. Sie wurde von nacheinander von mehreren Entwicklern 
+&#8211; David Maicher, Tony Lemke und mir &#8211; entwickelt, und ist nun endlich wieder im 
+[Play Store](https://play.google.com/store/apps/details?id=de.ironjan.mensaupb). Der Quellcode ist ebenfalls auf 
+[github](https://github.com/ironjan/MensaUPB).
 
-Der Quellcode ist ebenfalls auf [github](https://github.com/ironjan/MensaUPB).
-
-<img src="/wp-content/uploads/2014/04/ccd_icon-400x400.png" alt="CCD Icon" width="64" height="64" />
-
-**CCD** sollte als Offline-Nachschlagewerk für [clean-code-developer.de](http://clean-code-developer.de/) dienen. Dieses Projekt ist zur Zeit pausiert. Für den Code siehe [github](https://github.com/ironjan/CCD).
+**CCD** sollte als Offline-Nachschlagewerk für [clean-code-developer.de](http://clean-code-developer.de/) dienen. 
+Dieses Projekt ist zur Zeit pausiert. Für den Code siehe [github](https://github.com/ironjan/CCD).
 
 &nbsp;
