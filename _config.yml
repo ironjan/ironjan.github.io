@@ -12,8 +12,6 @@ excerpt_separator: <!--more-->
 future: false
 permalink: /:year/:month/:day/:title.html
 
-#optimization
-#compress.html
 compress_html:
   clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
@@ -31,10 +29,8 @@ sass:
 exclude:
 - README.md
 
-
 gems:
-   - jekyll-feed
-   - jekyll-paginate
-   - jekyll-redirect-from
-   - jekyll-sitemap
-
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
