@@ -1,7 +1,7 @@
 ---
 title: Kruunuvuoren nuotiopaikka
 author: ironjan
-date: 2017-06-01T15:00:00+00:00
+date: 2017-06-01T10:00:00+00:00
 layout: post
 categories:
   - All
