@@ -25,12 +25,9 @@ Mein Favorit an diesem Ort ist der Gorilla. Entgegen des Edding-Untertitels gehe
 
 Zum Abschluss noch ein paar Panoramas. Diese zeigen den Blick von Laajasalo nach Helsinki.
 Als erstes gibt es das bewölkte "[Meer in Richtung Helsinki](/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_seaside.jpg).
+
 {% include image name="kruunuvuoren-nuotiopaikka-panorama_seaside_small.jpg" alt="Panorama-Ausschnitt: Meer in Richtung Helsinki" caption="Panorama-Ausschnitt: Meer in Richtung Helsinki" %}
 
 Als der Himmel etwas aufgeklärt ist, konnte auch der [Sonnenuntergang über Helsinki](/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_sunset.jpg) fotografiert werden.
 
 {% include image name="kruunuvuoren-nuotiopaikka-panorama_sunset_small.jpg" alt="Panorama-Ausschnitt: Sonnenuntergang über Helsinki" caption="Panorama-Ausschnitt: Sonnenuntergang über Helsinki" %}
-
----
-
-P.S. Dieser Post ist ohne lokale Test-Umgebung entstanden und es kann passieren, dass Updates kommen um Bilder u.ä. zu fixen.
