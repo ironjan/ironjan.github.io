@@ -25,13 +25,10 @@ Mein Favorit an diesem Ort ist der Gorilla. Entgegen des Edding-Untertitels gehe
 
 Zum Abschluss noch ein paar Panoramas. Diese zeigen den Blick von Laajasalo nach Helsinki. Zur vollen Ansicht einfach auf die Ausschnitte klicken ;)
 
-<a href="/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_seaside.jpg">
-	{% include image name="kruunuvuoren-nuotiopaikka-panorama_seaside_small.jpg" alt="Panorama-Ausschnitt: Meer in Richtung Helsinki" %}
-</a>
+[{% include image name="kruunuvuoren-nuotiopaikka-panorama_seaside_small.jpg" alt="Panorama-Ausschnitt: Meer in Richtung Helsinki" %}](/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_seaside.jpg)
 
-<a href="/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_sunset.jpg">
-  {% include image name="kruunuvuoren-nuotiopaikka-panorama_sunset_small.jpg" alt="Panorama-Ausschnitt: Sonnenuntergang über Helsinki" %}
-</a>
+
+[{% include image name="kruunuvuoren-nuotiopaikka-panorama_sunset_small.jpg" alt="Panorama-Ausschnitt: Sonnenuntergang über Helsinki" %}](/uploads/2017/06/kruunuvuoren-nuotiopaikka-panorama_sunset.jpg)
 
 ---
 
