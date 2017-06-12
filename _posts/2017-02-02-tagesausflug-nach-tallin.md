@@ -7,6 +7,7 @@ categories:
   - All
   - Helsinki
   - Auslandssemester
+  - Reisen
 ---
 
 {% include image name="Tallinn_20170122_130227.jpg" alt="Blick über die Stadt " %}

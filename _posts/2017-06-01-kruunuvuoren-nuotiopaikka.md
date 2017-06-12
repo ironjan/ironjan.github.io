@@ -7,6 +7,7 @@ categories:
   - All
   - Helsinki
   - Auslandssemester
+  - Reisen
 ---
 
 {% include image name="kruunuvuoren-nuotiopaikka-house_through_trees.jpg" alt="Abandoned House" %}

@@ -7,6 +7,7 @@ categories:
   - All
   - Helsinki
   - Auslandssemester
+  - Reisen
 ---
 
 [!["Flowers of Life" at Unioninkatu 38](/uploads/2017/01/Lux_Helsinki_20170109_215609.jpg)](http://www.luxhelsinki.fi/en/installation/flowers-of-life/)
