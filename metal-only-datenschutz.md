@@ -18,13 +18,24 @@ Hier wird erklärt, welche Daten von Metal-Only abgefragt werden und wie diese g
    Nutzers auf ausdrücklich freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller angebotenen 
    Dienste ist - soweit technisch möglich und zumutbar - auch ohne Angabe solcher Daten bzw. unter 
    Angabe anonymisierter Daten oder eines Pseudonyms gestattet. 
+3. Es wird Fabric (inklusive Crashlytics) zur Fehleranalyse genutzt. Dabei werden anonymisiert Daten 
+   zu Abstürzen und Fehlverhalten der App an Fabric gesendet und von mir ausgewertet. Die erfassten 
+   Daten enthalten Informationen über das Gerät, die App-Version, die Stelle des Fehler im Code und 
+   Informationen über andere Threads, die zum Zeitpunkt des Fehlers gelaufen sind. Diese Informationen
+   sind notwendig, um das Fehlverhalten möglichst gut einzugrenzen und nachzuvollziehen. In Fabrics
+   Terms und Conditions gibt es weitere Informationen darüber, wie Fabric selbst die Daten nutzt:
+   https://fabric.io/terms
+
+
 
 **Sind die Daten benutzerbezogen?**
 
-Unter Punkt 1 werden keine bentzerbezogenen Daten erfasst.
+Unter Punkt 1 werden keine benutzerbezogenen Daten erfasst.
 
-Die unter Punkt 2 erfassten Daten sind nur dann benutzerbezogen, wenn vom Nutzer freiwillig 
+Die unter "Wunsch und Gruß" erfassten Daten sind nur dann benutzerbezogen, wenn vom Nutzer freiwillig 
 benutzerbezogene Daten eingegeben werden.
+
+Die mit Crashlytics erfassten Daten stehen mir nur anonymisiert zur Verfügung.
 
 **Werden diese Daten weitergegeben?**
 
@@ -33,6 +44,8 @@ Die unter Punkt 1 erfassten Daten verlassen nicht das Gerät.
 Die unter Punkt 2 erfassten Daten werden - sofern sich der Nutzer explizit und frewillig dazu 
 entscheidet, diese abzusenden - an [Metal Only](https://www.metal-only.de/) übermittelt. Dies ist 
 unter Anderem bei Wünschen und Grüßen der Fall.
+
+Die mit Crashlytics erfassten Daten werden von Fabric erfasst und mir anonym zur Verfügung gestellt.
 
 **Werden Nutzungstatistiken erhoben und kann ich dem widersprechen?**
 
