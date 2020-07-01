@@ -1,5 +1,5 @@
 ---
-title: Type Systems for Correctness and Security - Oral Examination Notes
+title:  Oral Examination Notes for Type Systems for Correctness and Security
 author: ironjan
 date: 2020-07-01T16:00:00+00:00
 layout: post
