@@ -1,7 +1,7 @@
 ---
 title: Type Systems for Correctness and Security -- Oral Examination Notes
 author: ironjan
-date: 202007-01T16:00:00+00:00
+date: 2020-07-01T16:00:00+00:00
 layout: post
 categories:
   - All
