@@ -10,15 +10,20 @@ Hier wird erklärt, welche Daten von MensaUPB erfasst werden und wozu diese genu
 
 **Welche Daten werden erfasst und zu welchem Zweck werden die Daten erhoben?**
 
-Es wird erfasst, welche Funktionen von MensaUPB genutzt werden und wie oft. Hierbei wird sich auf eine möglichst kleine Auswahl beschränkt, um möglichst wenige Daten zu erfassen. Ziel ist es, gut genutzte Funktionen zu verbessern und überflüssige Funktionen zu identifizieren.
+Es wird erfasst, welche Funktionen von MensaUPB genutzt werden und wie oft. Hierbei wird sich
+auf eine möglichst kleine Auswahl beschränkt, um möglichst wenige Daten zu erfassen. Ziel ist
+es, gut genutzte Funktionen zu verbessern und überflüssige Funktionen zu identifizieren.
 
 **Sind die Daten benutzerbezogen?**
 
-Nein. Es wird eine anonymisierte IP Adresse erfasst, die keine Rückschlüsse auf den einzelnen Benutzer ermöglicht.
+Nein. Es wird eine anonymisierte IP Adresse erfasst, die keine Rückschlüsse auf den einzelnen
+Benutzer ermöglicht.
 
 **Werden diese Daten weitergegeben?**
 
-Die Daten werden nur genutzt, um ggf. Entscheidungen im github-Projekt zu begründen. Hierbei werden jedoch nur Zusammenfassungen benutzt, die keine Rückschlüsse auf einzelne Nutzer ermöglichen.
+Die Daten werden nur genutzt, um ggf. Entscheidungen im github-Projekt zu begründen. Hierbei
+werden jedoch nur Zusammenfassungen benutzt, die keine Rückschlüsse auf einzelne Nutzer 
+ermöglichen.
 
 **Kann ich der Erhebung von Nutzungstatistiken widersprechen?**
 
