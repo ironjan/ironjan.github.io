@@ -6,8 +6,8 @@ layout: post
 categories:
   - All
   - Helsinki
-  - Auslandssemester
-  - Reisen
+  - Semester Abroad
+  - Travels
 ---
 
 {% include image name="Tallinn_20170122_130227.jpg" alt="Blick über die Stadt " %}

@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Auslandssemester
+title: Semester Abroad
 ---

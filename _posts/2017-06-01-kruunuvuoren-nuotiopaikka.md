@@ -6,8 +6,8 @@ layout: post
 categories:
   - All
   - Helsinki
-  - Auslandssemester
-  - Reisen
+  - Semester Abroad
+  - Travels
 ---
 
 {% include image name="kruunuvuoren-nuotiopaikka-house_through_trees.jpg" alt="Abandoned House" %}
