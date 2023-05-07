@@ -11,7 +11,7 @@ categories:
   - Data
   - Programming
 ---
-&#8220;[Cleaning some data with Clojure 1](http://ironjan.de/cleaning-some-data-with-clojure-1/ "Cleaning some data with Clojure 1")&#8221; provides some context on this project. This post here focusses on the question
+&#8220;[Cleaning some data with Clojure 1]({% post_url 2014-12-25-cleaning-some-data-with-clojure-1 %})&#8221; provides some context on this project. This post here focusses on the question
 
 > **&#8220;Can we tell, if two strings are similar?&#8221;.**
 

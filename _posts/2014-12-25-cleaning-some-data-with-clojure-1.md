@@ -43,8 +43,8 @@ Therefore, we are left with the final possibility: clean some data and add it to
 
 In this step, I asked the following questions, answered in later blog posts [1]:
 
-  1. [Can we tell, if two strings are similar?](http://ironjan.de/cleaning-some-data-with-clojure-2 "Cleaning some data with Clojure 2")
-  2. [Can we do that for many strings and group similar strings? (Create clusters)](http://ironjan.de/cleaning-some-data-with-clojure-3 "Cleaning some data with Clojure 3")
+  1. [Can we tell, if two strings are similar?]({% post_url 2014-12-27-cleaning-some-data-with-clojure-2 %})
+  2. [Can we do that for many strings and group similar strings? (Create clusters)]({% post_url 2014-12-27-cleaning-some-data-with-clojure-2 %})
   3. How do we use these clusters to clean the data?
 
 The last step cannot be automated completely, without creating/typing a list of &#8220;correct&#8221; examiners. But it can be semi-automated: a program can present the clusters of Step 2 and the user can select the correct examiner from a cluster:

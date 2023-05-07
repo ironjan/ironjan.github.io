@@ -11,7 +11,7 @@ categories:
   - Programming
   - Data
 ---
-The first post in this series was about [the original problem](http://ironjan.de/cleaning-some-data-with-clojure-1/ "Cleaning some data with Clojure 1"): there is a data-set of strings with potential duplicates and many typos. The second was about [computing the similarity of two strings](http://ironjan.de/cleaning-some-data-with-clojure-2/ "Cleaning some data with Clojure 2"). In this post we will focus on the question
+The first post in this series was about [the original problem]({% post_url 2014-12-25-cleaning-some-data-with-clojure-1 %}): there is a data-set of strings with potential duplicates and many typos. The second was about [computing the similarity of two strings]({% post_url 2014-12-27-cleaning-some-data-with-clojure-2 %}). In this post we will focus on the question
 
 > Can we group multiple strings of a set by similarity?
 
