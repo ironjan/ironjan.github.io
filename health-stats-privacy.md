@@ -1,8 +1,7 @@
----
-title: Health Stats Privacy
-date: 2020-09-16T15:00:00+00:00
-author: ironjan
-layout: page
----
+This privacy policy file is required for the app to be deleted from the play store.
 
-The Health Stats app uses Google Play Services to store all data within Google Fit. For more information see Google's privacy policy: https://policies.google.com/privacy?hl=en-US
+This app is not available for download. 
+Hence it does not use any user data.
+
+
+
