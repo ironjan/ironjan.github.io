@@ -25,14 +25,14 @@ Hier wird erklärt, welche Daten von Metal-Only abgefragt werden und wie diese g
    sind notwendig, um das Fehlverhalten möglichst gut einzugrenzen und nachzuvollziehen. Googles 
    Datenschutzbedfingungen können unter https://policies.google.com/privacy eingesehen werden.
 
-
-
 **Sind die Daten benutzerbezogen?**
 
 Unter Punkt 1 werden keine benutzerbezogenen Daten erfasst.
 
 Die unter "Wunsch und Gruß" erfassten Daten sind nur dann benutzerbezogen, wenn vom Nutzer freiwillig 
 benutzerbezogene Daten eingegeben werden.
+
+Es gibt keine Nutzeraccounts innerhalb der App.
 
 Die über Google Play erfassten Daten stehen mir nur anonymisiert zur Verfügung.
 
