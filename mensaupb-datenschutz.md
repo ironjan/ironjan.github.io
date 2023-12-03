@@ -19,10 +19,6 @@ Datenschutzbedfingungen können unter https://policies.google.com/privacy einges
 
 Die über Google Play erfassten Daten stehen mir nur anonymisiert zur Verfügung.
 
-**Kann ich der Erhebung von Nutzungstatistiken widersprechen?**
-
-Unter &#8220;Über die App&#8221; kann der Erfassung von Nutzungsstatistiken widersprochen werden.
-
 **Wie kann ich dich bei Fragen erreichen?**
 
 Sende einfach eine Email an [lippertsjan+mensaupb@gmail.com](mailto:lippertsjan+mensaupb@gmail.com "Email senden").
