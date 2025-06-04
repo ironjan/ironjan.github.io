@@ -1,5 +1,15 @@
 # Jan's blog
 
+## Requirements
+
+- Install the pre-requisites: https://jekyllrb.com/docs/installation/other-linux/
+- Then `gem install --user-install jekyll bundler`
+
+### Useful commands
+
+ * `bundle update` - update dependencies
+ * `./serve-with-drafts-and-future.sh` - util script for local testing
+
 ## Image Template
 
 The template _includes/image is based on  https://eduardoboucas.com/blog/2014/12/07/including-and-managing-images-in-jekyll.html 
@@ -17,10 +27,6 @@ Usage:
 
 These need to be imported in css/main.scss
 
-## Useful commands
-
- * `bundle update` - update dependencies
- * `./serve-with-drafts-and-future.sh` - util script for local testing
 
 ## Theme
 
