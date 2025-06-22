@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Cleaning some data with Clojure 2 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Cleaning some data with Clojure 1 provides some context on this project. This post here focusses on the question
+
+“Can we tell, if two strings are similar?”.
+Levenshtein Distance: My first idea was to use the Levenshtein Distance. This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:">
+    <meta name="generator" content="Hugo 0.147.7">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="ironjan">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/post/2014-12-27-cleaning-some-data-with-clojure-2/">
+    
+
+    <meta property="og:url" content="//localhost:1313/post/2014-12-27-cleaning-some-data-with-clojure-2/">
+  <meta property="og:title" content="Cleaning some data with Clojure 2">
+  <meta property="og:description" content="Cleaning some data with Clojure 1 provides some context on this project. This post here focusses on the question
+“Can we tell, if two strings are similar?”.
+Levenshtein Distance: My first idea was to use the Levenshtein Distance. This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2014-12-27T19:00:27+00:00">
+    <meta property="article:modified_time" content="2014-12-27T19:00:27+00:00">
+
+  <meta itemprop="name" content="Cleaning some data with Clojure 2">
+  <meta itemprop="description" content="Cleaning some data with Clojure 1 provides some context on this project. This post here focusses on the question
+“Can we tell, if two strings are similar?”.
+Levenshtein Distance: My first idea was to use the Levenshtein Distance. This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:">
+  <meta itemprop="datePublished" content="2014-12-27T19:00:27+00:00">
+  <meta itemprop="dateModified" content="2014-12-27T19:00:27+00:00">
+  <meta itemprop="wordCount" content="696">
+  <meta itemprop="keywords" content="All,Data,Programming">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cleaning some data with Clojure 2">
+  <meta name="twitter:description" content="Cleaning some data with Clojure 1 provides some context on this project. This post here focusses on the question
+“Can we tell, if two strings are similar?”.
+Levenshtein Distance: My first idea was to use the Levenshtein Distance. This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/travels/" title="Travels page">
+              Travels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/programming/" title="Programming page">
+              Programming
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Cleaning some data with Clojure 2</h1>
+      
+      <p class="tracked"><strong>ironjan</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-12-27T19:00:27Z">December 27, 2014</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><a href="/post/2014-12-25-cleaning-some-data-with-clojure-1/">Cleaning some data with Clojure 1</a> provides some context on this project. This post here focusses on the question</p>
+<blockquote>
+<p><strong>“Can we tell, if two strings are similar?”.</strong></p></blockquote>
+<p><strong>Levenshtein Distance:</strong> My first idea was to use the <a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="Levenshtein Distance on wikipedia">Levenshtein Distance</a>. This metric counts the minimum number of operations needed to transform one string into the other when allowing insertion, deletion or substition of characters. Its definition is as follows:<figure id="attachment_280" style="width: 400px" class="wp-caption alignnone"></p>
+<p><a href="/uploads/2014/12/Levenshtein_distance.png"><img class="size-medium wp-image-280" src="/wp-content/uploads/2014/12/Levenshtein_distance-400x75.png" alt="Definition of Levenshtein Distance" width="400" height="75" srcset="/wp-content/uploads/2014/12/Levenshtein_distance-400x75.png 400w, /wp-content/uploads/2014/12/Levenshtein_distance-200x37.png 200w, /wp-content/uploads/2014/12/Levenshtein_distance.png 587w" sizes="(max-width: 400px) 100vw, 400px" /></a><figcaption class="wp-caption-text">Definition of Levenshtein Distance</figcaption></figure></p>
+<p><a href="/uploads/2014/12/indicator_function.png"><img class=" size-full wp-image-281 alignleft" src="/wp-content/uploads/2014/12/indicator_function.png" alt="indicator_function" width="55" height="21" /></a>denotes the indicator function, which is equal to 0 when the i-th character of a is equal to the j-th character of b. Otherwise it’s 1.</p>
+<p>Transforming this into clojure-code is fairly simple, given the definitions. First, the indicator-function:</p>
+<pre class="wp-code-highlight prettyprint">(defn indicator
+  "0, if the i-th character of a and the j-th character of b
+are the same. 1 otherwise."
+  [a b i j]
+  (if (= (get a (dec i)) (get b (dec j)))
+   0
+   1))
+</pre>
+<p>Next, a helper function which will be called recursively:</p>
+<pre class="wp-code-highlight prettyprint">(defn lev
+  "Helper function to compute the levenshtein distance"
+  [a b i j]
+  (if (zero? (min i j))
+   (max i j)
+   (min (inc (lev a b (dec i) j))
+        (inc (lev a b i (dec j)))
+        (+ (lev a b (dec i) (dec j)) (indicator a b i j)))))</pre>
+<p>And finally the “public api”:</p>
+<pre class="wp-code-highlight prettyprint">(defn levenshtein
+  "Computes the Levenshtein distance between two strings a and b"
+  [a b]
+  (lev a b (count a) (count b)))
+</pre>
+<p>Unfortunately, this solution is not very performant [0]. Also it blows the stack somewhere above 50 characters (tested for 140 characters). Nonetheless, this is enough for my use-case 😉</p>
+<pre class="wp-code-highlight prettyprint">=&gt; (def alphabet "alphabetdefghijklmnopqrstuvwxyz")
+#&#039;/alphabet
+=&gt; (time (levenshtein (subs alphabet 0 10) (subs alphabet 0 10)))
+"Elapsed time: 3855.856306 msecs"
+0
+=&gt; (time (levenshtein (subs alphabet 0 11) (subs alphabet 0 11)))
+"Elapsed time: 21493.424412 msecs"
+0
+</pre>
+<p>We have this performance issue because most values are computed multiple times; some are computed extremely often. The solution in this case is a well-placed <code>memoize</code> to reuse the computed values: <code>(def lev (memoize lev))</code>. All in all we get a huge performance boost [1]:</p>
+<pre class="wp-code-highlight prettyprint">=&gt; (time (levenshtein (subs alphabet 0 11) (subs alphabet 0 11)))
+"Elapsed time: 1.230304 msecs"
+0
+=&gt; (time (levenshtein (subs alphabet 0 15) (subs alphabet 0 15)))
+"Elapsed time: 1.280788 msecs"
+0
+=&gt; (time (levenshtein alphabet alphabet))
+"Elapsed time: 3.099704 msecs"
+0
+=&gt; (time (levenshtein rnd_50_1 rnd_50_2))
+"Elapsed time: 11.464978 msecs"
+38
+=&gt; (time (levenshtein rnd_140_1 rnd_140_2))
+StackOverflowError clojure.lang.AFn.applyToHelper (AFn.java:148)
+</pre>
+<p>Note, that “rnd_X_Y” are distinct pseudo-random strings that were “generated” by hitting the keyboard X times.</p>
+<p><strong>Extending this metric:</strong> This metric does not take into account that <em>&amp;#8221;o</em> is equivalent to <em>ö</em>. We can fix this by replacing these special values with more common ones before computing the distances:</p>
+<pre class="wp-code-highlight prettyprint">(defn cleanString
+  "A hacky cleaning function. Replaces unusual characters by more common ones."
+  [s]
+  (switch "\"A" "Ä"
+   (switch "\"O" "Ö"
+    (switch "\"U" "Ü"
+     (switch "\"a" "ä"
+      (switch "\"o" "ö"
+       (switch "\"u" "ü"
+        (switch "\\ss{}" "ß" s))))))))))))
+</pre>
+<p>And for a vector etc. of strings:</p>
+<pre class="wp-code-highlight prettyprint">(defn clean 
+  "Cleans a vector of strings"
+  [strings]
+  (map cleanString strings))
+</pre>
+<p><strong>From distance to similarity:</strong> Our next step is to convert distances between two strings into a “similarity value”. The Levenshtein distance of two strings is <code>(&lt;= 0 (levenshtein a b) (max (count a) (count b)))</code>. Therefore we can convert a Levenshtein distance to a similarity metric as follows:</p>
+<pre class="wp-code-highlight prettyprint">(defn levensthein-similarity
+  "Computes a similarity measure based on Levenshtein distance. 0 ~ a and b completely different, 1 ~ a and b equal"
+  [a b]
+  (- 1 (/ (levensthein a b)
+          (max (count a) (count b)))))
+</pre>
+<p><strong>TL;DR:</strong> Use an appropriate <a href="http://en.wikipedia.org/wiki/String_metric" title="String Metrics on wikipedia">String Metric</a> and convert it to a similarity metric. I tried out <a href="http://en.wikipedia.org/wiki/Levenshtein_distance" title="Levenshtein Distance on wikipedia">Levenshtein Distance</a> which does not takes into account that <em>&amp;#8221;o</em> and <em>ö</em> are equivalent.</p>
+<p>[0] “<em>We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.</em>” (Knuth, Donald. <a class="externallink" title="Structured Programming with go to Statements" href="http://pplab.snu.ac.kr/courses/adv_pl05/papers/p261-knuth.pdf" target="_blank" rel="noreferrer">Structured Programming with go to Statements</a>, ACM Journal Computing Surveys, Vol 6, No. 4, Dec. 1974. p.268.); from [clean-code-developer.de](<a href="http://clean-code-developer.de/Vorsicht-vor-Optimierungen.ashx">http://clean-code-developer.de/Vorsicht-vor-Optimierungen.ashx</a> &ldquo;&ldquo;Vorsicht vor Optimierungen&rdquo; - clean-code-developers.de&rdquo;)</p>
+<p>[1] These numbers mean next to nothing: we don’t know yet if these improvements hold true for random strings. This will probably be on a later post.</p>
+<hr>
+<p>Edit: Better code listings.</p>
+<p> </p>
+<p> </p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

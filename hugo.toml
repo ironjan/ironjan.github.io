@@ -1,0 +1,47 @@
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menus]
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name ='Travels'
+    pageRef = '/travels/'
+    weight = 30
+  # there are no submenus in this theme?
+  [[menus.main]]
+    name = 'Semester Abroad'
+    pageRef = '/abroad/'
+    parent = 'Travels'
+    weight = 10
+  [[menus.main]]
+    name = 'Programming'
+    pageRef = '/programming/'
+    weight = 50
+  [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects/'
+    weight = 70
+  [[menus.main]]
+    name = 'Metal Only'
+    pageRef = '/metal-only/'
+    parent = 'Projects'
+  [[menus.main]]
+    name = 'MensaUPB'
+    pageRef = '/mensaupb/'
+    parent = 'Projects'
+  [[menus.main]]
+    name = 'About Me'
+    pageRef = '/about/'
+    weivght = 90
+# menu: 
+# blog
+# programming
+# projects: metal only, mensa upb
+# about me

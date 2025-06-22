@@ -1,0 +1,164 @@
+ % template: minutes of the oral examination, Version 01.03.2011
+
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8x]{inputenc} 
+% for Microsoft Windows:  \usepackage[Latin1]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{ngerman} 
+\usepackage{hyperref}
+
+
+% setup margins
+\usepackage{geometry}
+\geometry{a4paper, left=20mm, right=20mm, top=20mm, bottom=26mm}
+
+
+%========== ========== ========== ========== ==========
+% footers :
+
+   % Compile this document twice to correctly display footers
+
+\usepackage{fancyhdr, lastpage} 
+\pagestyle{fancyplain}
+
+\lfoot{ Dr.-Ing. Ben Hermann }   % replace PROFESSOR with the real name of the Professor
+\cfoot{ Type Systems for Correctness and Security }   % replace with the title of the lecture
+\rfoot{ Page \thepage / \pageref{LastPage} }
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% end of footers
+%========== ========== ========== ========== ==========
+
+\begin{document}
+
+\begin{center}
+    \begin{LARGE}
+       Minutes of the oral examination of the lecture  \\
+          \medskip
+       \textbf{ Type Systems for Correctness and Security } % replace with actual title of the lecture
+    \end{LARGE}
+\end{center}
+
+
+\begin{center}
+	\begin{tabular}{p{3.0cm}p{6.5cm}p{3.4cm}p{2.5cm}}
+	
+	Examiner           & Dr.-Ing. Ben Hermann         & Date:               & 21.08.2019 \\
+	Course of studies: & M. Sc. Computer Science      & Duration:           & 30 min     \\
+  Language:          & English  & Grade (optional): & 1.0     \\
+	\end{tabular}
+\end{center}
+
+%========== ========== ========== ========== ==========
+{\footnotesize This work is licensed under a \href{http://creativecommons.org/licenses/by-sa/2.0/}{Creative Commons Attribution-ShareAlike 2.0 Generic License}. Author: Jan Lippert. }
+\hrule \bigskip
+
+
+% Note:
+%  if you can't specify one of following points, omit it.
+
+
+\noindent \textbf{Preparation time: }
+In total it would be roughly 4 weeks in addition to attending the exercises and doing the labs. 
+	% How much time did you take to prepare for the exam?
+		
+		
+%========== ========== ========== ========== ==========
+\bigskip \hrule \bigskip
+
+\noindent \textbf{Literature: }
+Lecture slides and exercises. In rare cases I looked things up in the referred literature.
+	% What literature did you use to prepare for the exam?
+
+%========== ========== ========== ========== ==========
+\bigskip \hrule \bigskip
+
+\noindent \textbf{Atmosphere \& Further information: }
+	% Describe the atmosphere between you and the examiner.
+The atmoshpere was good and quite relaxed -- at least for an exam ;)
+
+Before starting the actual exam, Mr. Hermann shortly explained the procedure. He also explained that in some cases it may be easier to write down formulas instead of explaining things. Most of the time I was able to express my answers in a succint way. 
+
+Also noteworthy is that, while the exam contained some formal parts, writing things done was quite informal. In some cases my notation slightly diverted from the notation we used in the lecture but it was ok ``as long as everybody understands it''.
+
+The exam was planned to take 45 minutes. However, we went quite fast and were done after 30 minutes.
+
+The notes below only contain some answers. Don't want to present you with too many spoilers % FIXME add smiley face
+
+% Provide further information regarding the exam.
+%========== ========== ========== ========== ==========
+\bigskip \hrule \bigskip
+
+\noindent \textbf{Process of the exam: }
+
+\begin{itemize}
+\item Why do we need type system?
+\item Evaluation rules for the language Bool (E-If, E-If-True, E-IF-False) presented on paper. We want to add natural numbers -- can terms now get stuck? Where and why?
+\begin{itemize}
+   \item Yes. We would need to introduce typing rules to make it safe.
+   \item Had to define T-If. Used the simple definition with $T_2 == T_3$ and mentioned the join-variant.
+\end{itemize}
+\item What would be now need to do to actually show that this is safe?
+\begin{itemize}
+   \item Proof Safety = Preservation + Progress. Induction on the structure of terms $t$ using the typing and evaluation rules.
+\end{itemize}
+\item What other properties can a typing system assure?
+\begin{itemize}
+   \item Control-flow and memory safety (TAL), access rights (security type systems)
+\end{itemize}
+\item What is uniqueness? When did we drop it and why?
+\begin{itemize}
+   \item Types were unique until we introduced subtyping ($\rightarrow$ subtypes can take the place of their supertypes).
+\end{itemize}
+\item Talked about joins before. Extend T-If to use joins. What are joins?
+\item How would you proof this subtype relationship?
+\begin{itemize}
+   \item Given two records on a paper. Before drawing the  derivation tree I explained what rules to use and the tree was kept quite small
+\end{itemize}
+\item What is the lambda calculus, What does it consist of?
+\begin{itemize}
+   \item Abstractions (function definitions) and applications (applying functions to values).
+\end{itemize}
+\item What are extensions? How do they work?
+\begin{itemize}
+   \item Syntactic sugar that can be converted to the unextended form. 
+\end{itemize}
+\item After extensions we introduced references. What are they and why did we need them? 
+\item Here are some reference rules (ref $t_1$, $!t1$, $t_1 := t_2$). Create typing rules for these.
+\item Switch to security type system. What is non-inference? Extend T-If with security typing.
+\begin{itemize}
+   \item Converted types to type tuples, e.g. $(T_1, s_1)$. Explained that $s_1$ is a security level and how it works (implicitely used the security lattice; only high-low was required).
+\end{itemize}
+\item Switch to Featherweight Java. What does this rule mean? (T-Invk)
+\item Here are all FW-Java term typing rules. Pick one and add security typing.
+\begin{itemize}
+   \item Picked T-Field. Added some security types, similar to the T-If extension.
+\end{itemize}
+\item Does the security level of the class have any impact on field's security level?
+\begin{itemize}
+   \item It depends on how we define it. We can require $s_{class} \geq s_{field, i}$ for all $i$ and extend the rule accordingly.
+\end{itemize}
+\item Switch to TAL. Presented the semantic rules of TAL-0. We do \textit{not} have typing rules yet. Where do we need to take care and why?
+\begin{itemize}
+   \item Every rule with jump is dangerous. We need to remember valid locations. Got confused with If-Neq and If-Eq, even if I explained it correctly (pointed to If-New which has no jump).
+\end{itemize}
+\item How would we make it safe?
+\begin{itemize}
+   \item \#typesystemsRule
+\end{itemize}
+\item In TAL-1 there are special pointers $s_p$. What are they, why are they needed?
+\begin{itemize}
+   \item Shared pointers. Freely assignable. Ensure memory safety (type of a pointer is invariant).
+\end{itemize}
+\item What are higher-order type systems? How are they used? What is Kinding?
+\item What are dependent types?
+\item Here is rule T-Conv. Why do we need it.
+\begin{itemize}
+   \item Generics.
+\end{itemize}
+\end{itemize}
+\end{document}

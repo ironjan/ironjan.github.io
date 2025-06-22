@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Cleaning some data with Clojure 1 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Context: The students’ council mathematics and computer science in Paderborn (FSMI) provides a service called “Klausurausleihe”. Students may come to the FSMI and lend exams and protocols to prepare themselves  for exams.
+To manage the dataset behind this services, the so-called klausurtool is used. The FSMI an manage the set of exams available and their status. Exams are represented as tuples (examiner, date, content, lendingStatus, lecture) [0].
+The problem: For every single exam, the examiner (and other data has to be entered). There were no rules on how to enter the examiner. Also, the klausurtool did not use UTF-8.">
+    <meta name="generator" content="Hugo 0.147.7">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="ironjan">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/post/2014-12-25-cleaning-some-data-with-clojure-1/">
+    
+
+    <meta property="og:url" content="//localhost:1313/post/2014-12-25-cleaning-some-data-with-clojure-1/">
+  <meta property="og:title" content="Cleaning some data with Clojure 1">
+  <meta property="og:description" content="Context: The students’ council mathematics and computer science in Paderborn (FSMI) provides a service called “Klausurausleihe”. Students may come to the FSMI and lend exams and protocols to prepare themselves for exams.
+To manage the dataset behind this services, the so-called klausurtool is used. The FSMI an manage the set of exams available and their status. Exams are represented as tuples (examiner, date, content, lendingStatus, lecture) [0].
+The problem: For every single exam, the examiner (and other data has to be entered). There were no rules on how to enter the examiner. Also, the klausurtool did not use UTF-8.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2014-12-25T20:11:19+00:00">
+    <meta property="article:modified_time" content="2014-12-25T20:11:19+00:00">
+
+  <meta itemprop="name" content="Cleaning some data with Clojure 1">
+  <meta itemprop="description" content="Context: The students’ council mathematics and computer science in Paderborn (FSMI) provides a service called “Klausurausleihe”. Students may come to the FSMI and lend exams and protocols to prepare themselves for exams.
+To manage the dataset behind this services, the so-called klausurtool is used. The FSMI an manage the set of exams available and their status. Exams are represented as tuples (examiner, date, content, lendingStatus, lecture) [0].
+The problem: For every single exam, the examiner (and other data has to be entered). There were no rules on how to enter the examiner. Also, the klausurtool did not use UTF-8.">
+  <meta itemprop="datePublished" content="2014-12-25T20:11:19+00:00">
+  <meta itemprop="dateModified" content="2014-12-25T20:11:19+00:00">
+  <meta itemprop="wordCount" content="588">
+  <meta itemprop="keywords" content="Data,Programming">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cleaning some data with Clojure 1">
+  <meta name="twitter:description" content="Context: The students’ council mathematics and computer science in Paderborn (FSMI) provides a service called “Klausurausleihe”. Students may come to the FSMI and lend exams and protocols to prepare themselves for exams.
+To manage the dataset behind this services, the so-called klausurtool is used. The FSMI an manage the set of exams available and their status. Exams are represented as tuples (examiner, date, content, lendingStatus, lecture) [0].
+The problem: For every single exam, the examiner (and other data has to be entered). There were no rules on how to enter the examiner. Also, the klausurtool did not use UTF-8.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/travels/" title="Travels page">
+              Travels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/programming/" title="Programming page">
+              Programming
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Cleaning some data with Clojure 1</h1>
+      
+      <p class="tracked"><strong>ironjan</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-12-25T20:11:19Z">December 25, 2014</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><strong>Context:</strong> The students’ council mathematics and computer science in Paderborn (FSMI) provides a service called “Klausurausleihe”. Students may come to the FSMI and lend exams and protocols to prepare themselves  for exams.</p>
+<p>To manage the dataset behind this services, the so-called klausurtool is used. The FSMI an manage the set of exams available and their status. Exams are represented as tuples (examiner, date, content, lendingStatus, lecture) [0].</p>
+<p><strong>The problem:</strong> For every single exam, the examiner (and other data has to be entered). There were no rules on how to enter the examiner. Also, the klausurtool did not use UTF-8.</p>
+<p>E.g. “Blömer” has been entered as”Blömer”, “Bloemer”, “Bl&amp;#8221;mer”. The last one is using LaTeX-notation (which has some funny effects on DB queries). Note, that this does not yet include typos like “Bleomer” or “Blmöer” which are also common.</p>
+<p>Because of these problems (and some others not mentioned), a new klausurtool is in development. One of the originally planned features was to enter examiners and exams separately, i.e. when entering an exam, the examiner has to be picked from the existing ones.</p>
+<p>Of course, the new klausurtool needs to be “feeded” with data. There are multiple possiblities – sortied ascending by my preference – to do this:</p>
+<ol>
+<li>Start typing everything per hand. Some prefer this solution because “the old data is unusable”.</li>
+<li>Just put all the old data into the new klausurtool. As mentioned before, there are inconsistencies etc.</li>
+<li>Clean all the data and put it into the new klausurtool.</li>
+<li>Clean some data and put it into the new klausurtool, e.g. existing examiners.</li>
+</ol>
+<p>I am not a computer and therefore should not do tasks that can be automated. Especially when we’re talking about lots of stuff (there are ~300 uncleaned examiners, excluding the other data). Hence, I dismissed 1.</p>
+<p>Possibility 2 is also to be dismissed: There’s a chance to do things right; why should we repeat the errors done before?</p>
+<p>Number 3 sounds great! All the data, all clean and beautiful. Unfortunately this would be too much work: First, extract all uncleaned examiners from the set of exams. Then clean the examiners and create a map <em>uncleanedExaminer_i -&gt; cleanedExaminer_j</em>. Finally, convert all exams to the new format, while replacing <em>uncleanedExaminer_i</em> on every exam with a relation to <em>cleanedExaminer_j</em>.</p>
+<p>This may be possible but would get ugly soon enough. In fact, converting stuff into a new schema <strong>without</strong> cleaning is ugly enough (I already did this once).</p>
+<p>Therefore, we are left with the final possibility: clean some data and add it to the new klausurtool.</p>
+<p><strong>Evaluating the data:</strong> In this post I will focus on examiners. Nonetheles the things mentioned here are applicable to different data (e.g. lecture names etc).</p>
+<p>In this step, I asked the following questions, answered in later blog posts [1]:</p>
+<ol>
+<li>[Can we tell, if two strings are similar?]({% post_url 2014-12-27-cleaning-some-data-with-clojure-2 %})</li>
+<li>[Can we do that for many strings and group similar strings? (Create clusters)]({% post_url 2014-12-27-cleaning-some-data-with-clojure-2 %})</li>
+<li>How do we use these clusters to clean the data?</li>
+</ol>
+<p>The last step cannot be automated completely, without creating/typing a list of “correct” examiners. But it can be semi-automated: a program can present the clusters of Step 2 and the user can select the correct examiner from a cluster:</p>
+<blockquote>
+<ol>
+<li>Bleomer</li>
+<li>Bloemer</li>
+<li>Blömer</li>
+<li>Bl&amp;#8221;omer</li>
+</ol>
+<p>Correct one: &raquo; 3</p></blockquote>
+<p>This solution should be faster than the “take out all exams and type the examiner into the system”…</p>
+<p>[0] This is simplified.</p>
+<p>[1] I’m lazy, therefore these links will be broken, until the corresponding blog posts are released. Could take some time…</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

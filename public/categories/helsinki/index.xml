@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helsinki on </title>
+    <link>//localhost:1313/categories/helsinki/</link>
+    <description>Recent content in Helsinki on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Jun 2017 10:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/helsinki/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trip Home</title>
+      <link>//localhost:1313/post/2017-06-12-trip-home/</link>
+      <pubDate>Mon, 12 Jun 2017 10:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-06-12-trip-home/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;Stockholm_Ferry_Turku_Stockholm.jpg&amp;rdquo; caption=&amp;ldquo;On the&#xA;Ferry: Turku -&amp;gt; Stockholm&amp;rdquo; alt=&amp;ldquo;On the Ferry: Turku -&amp;gt; Stockholm&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Um den Abschluss des Auslandssemesters gebührend zu feiern, ging es für mich&#xA;nicht direkt nach Hause. Mit einem mehr oder weniger kleinen Umweg ging es für&#xA;mich nach &lt;a href=&#34;#stockholm&#34;&gt;Stockholm&lt;/a&gt;, &lt;a href=&#34;#k%C3%B8benhavn&#34;&gt;København&lt;/a&gt; und &lt;a href=&#34;#m%C3%BCnchen&#34;&gt;München&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kruunuvuoren nuotiopaikka</title>
+      <link>//localhost:1313/post/2017-06-01-kruunuvuoren-nuotiopaikka/</link>
+      <pubDate>Thu, 01 Jun 2017 10:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-06-01-kruunuvuoren-nuotiopaikka/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;kruunuvuoren-nuotiopaikka-house_through_trees.jpg&amp;rdquo; alt=&amp;ldquo;Abandoned House&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Wieder ein lange aufgeschobener Eintrag. Am 25. März war ich mit ein paar Leuten in einem &amp;ldquo;Abandoned Place&amp;rdquo;: &lt;a href=&#34;https://www.google.de/maps/place/Kruunuvuoren+nuotiopaikka/@60.1637088,24.7600938,10z/&#34;&gt;Kruunuvuoren nuotiopakkia&lt;/a&gt;. Leider hats auch einen traurigen Grund, warum ich das jetzt poste: irgendwer hat die Häuschen abgefackelt :(&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Letzter Tag in Lappland</title>
+      <link>//localhost:1313/post/2017-04-22-lappland-3/</link>
+      <pubDate>Sat, 22 Apr 2017 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-04-22-lappland-3/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/uploads/2017/04/Ivalo_2_2017-02-20_21-34-25-0374.jpg&#34; alt=&#34;Sternbild Orion&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Am letzten Tag war morgens Langlauf angesagt. Abends gingen wir in die Sauna und du wirst nicht glauben, was dann passiert ist! (Clickbait, yeah \o/)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lappland - Ankunft in Ivalo</title>
+      <link>//localhost:1313/post/2017-04-21-lappland-2/</link>
+      <pubDate>Fri, 21 Apr 2017 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-04-21-lappland-2/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;Ivalo_1_2017-02-19_13-39-15-20170219_133915.jpg&amp;rdquo; alt=&amp;ldquo;Sonnenuntergang in der Nähe des Naverniemi Holiday Centers&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Der zweite Tag bestand aus der Fahrt nach &lt;a href=&#34;http://www.inarisaariselka.fi/de/ivalo/&#34;&gt;Ivalo&lt;/a&gt;,&#xA;der Ankunft im &lt;a href=&#34;http://www.narkka.com/in-english/&#34;&gt;Naverniemi Holiday Center&lt;/a&gt;&#xA;und zwei Wanderungen auf dem Ivalo-River.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lappland - Anreise &amp; Rovaniemi</title>
+      <link>//localhost:1313/post/2017-04-20-lappland-1/</link>
+      <pubDate>Thu, 20 Apr 2017 12:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-04-20-lappland-1/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;Rovaniemi_2017-02-18_13-09-22-0187.jpg&amp;rdquo; alt=&amp;ldquo;Gruppenfoto vor Riesen-Schneemann im Santa Claus Village&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Letzten Monat war eine Reise nach Lappland angesagt. Bisher kam ich aber noch nicht dazu, irgendwas darüber zu schreiben, da ich anderweitig beschäftigt war. In den nächsten Tagen kommt daher nach und nach alles, was es dort so interessantes gab ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wanderung in Nuuksio</title>
+      <link>//localhost:1313/post/2017-02-15-nuuksio/</link>
+      <pubDate>Wed, 15 Feb 2017 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-02-15-nuuksio/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;Nuuksio_20170204_155448.jpg&amp;rdquo; alt=&amp;ldquo;Eiswand&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Am 02.02. war eine Wanderung von &lt;a href=&#34;https://www.facebook.com/hydepakki&#34;&gt;Hydepakki&lt;/a&gt;&#xA;in &lt;a href=&#34;http://www.nationalparks.fi/nuuksionp&#34;&gt;Nuuksio&lt;/a&gt; angesagt. Hydepakki ist eine Studierendenorganisation, die Wnaderungen und andere Events &amp;ndash; beispielsweise Sauna am Strand mit Baden im Eismeer ;) &amp;ndash; organisiert.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tagesausflug nach Tallinn</title>
+      <link>//localhost:1313/post/2017-02-02-tagesausflug-nach-tallin/</link>
+      <pubDate>Thu, 02 Feb 2017 22:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-02-02-tagesausflug-nach-tallin/</guid>
+      <description>&lt;p&gt;{% include image name=&amp;ldquo;Tallinn_20170122_130227.jpg&amp;rdquo; alt=&amp;ldquo;Blick über die Stadt &amp;quot; %}&lt;/p&gt;&#xA;&lt;p&gt;Eckeröline hat zur Zeit ein sehr gutes Winterangebot: extrem günstige Tagesausflüge nach Tallinn.&#xA;Diese Gelegenheit haben einige andere Studenten und ich vor ca. zwei Wochen genutzt, um Tallinn zu&#xA;besuchen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lux Helsinki</title>
+      <link>//localhost:1313/post/2017-01-23-lux-helsinki/</link>
+      <pubDate>Mon, 23 Jan 2017 14:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/2017-01-23-lux-helsinki/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.luxhelsinki.fi/en/installation/flowers-of-life/&#34;&gt;&lt;img src=&#34;//localhost:1313/uploads/2017/01/Lux_Helsinki_20170109_215609.jpg&#34; alt=&#34;&amp;ldquo;Flowers of Life&amp;rdquo; at Unioninkatu 38&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Durch Zufall bin ich gerade noch rechtzeitig für &lt;a href=&#34;http://www.luxhelsinki.fi/en&#34;&gt;Lux Helsinki&lt;/a&gt; hier&#xA;angekommen. Diese Gelegenheit hab ich genutzt, um einmal durch die Stadt zu streifen und ein paar&#xA;Fotos zu machen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

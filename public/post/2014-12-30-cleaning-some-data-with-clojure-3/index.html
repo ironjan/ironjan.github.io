@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Cleaning some data with Clojure 3 | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
+
+Can we group multiple strings of a set by similarity?
+**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
+    <meta name="generator" content="Hugo 0.147.7">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="ironjan">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="//localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
+    
+
+    <meta property="og:url" content="//localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
+  <meta property="og:title" content="Cleaning some data with Clojure 3">
+  <meta property="og:description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
+Can we group multiple strings of a set by similarity?
+**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2014-12-30T14:05:53+00:00">
+    <meta property="article:modified_time" content="2014-12-30T14:05:53+00:00">
+
+  <meta itemprop="name" content="Cleaning some data with Clojure 3">
+  <meta itemprop="description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
+Can we group multiple strings of a set by similarity?
+**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
+  <meta itemprop="datePublished" content="2014-12-30T14:05:53+00:00">
+  <meta itemprop="dateModified" content="2014-12-30T14:05:53+00:00">
+  <meta itemprop="wordCount" content="548">
+  <meta itemprop="keywords" content="All,Programming,Data">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cleaning some data with Clojure 3">
+  <meta name="twitter:description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
+Can we group multiple strings of a set by similarity?
+**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Blog page">
+              Blog
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/travels/" title="Travels page">
+              Travels
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/programming/" title="Programming page">
+              Programming
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/projects/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="About Me page">
+              About Me
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Cleaning some data with Clojure 3</h1>
+      
+      <p class="tracked"><strong>ironjan</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-12-30T14:05:53Z">December 30, 2014</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The first post in this series was about <a href="/post/2014-12-25-cleaning-some-data-with-clojure-1/">the original problem</a>: there is a data-set of strings with potential duplicates and many typos. The second was about <a href="/post/2014-12-27-cleaning-some-data-with-clojure-2">computing the similarity of two strings</a>. In this post we will focus on the question</p>
+<blockquote>
+<p>Can we group multiple strings of a set by similarity?</p></blockquote>
+<p>**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.</p>
+<pre class="wp-code-highlight prettyprint">(defn- singleMap 
+  "Produces a function that takes one argument str2 and computes
+  [str1 str2 (f str1 str2)]."
+  [f str1]
+  (fn [str2]
+    [str1 str2 (f str1 str2)]))
+
+(defn- split? 
+  "Produces a split predicate based on a."
+  [str] 
+  (fn [x] 
+    (pos? (compare str x))))
+
+(defn- getAfterStr 
+  "Returns the elements after str of the supplied sequence"
+  [str strings]
+  (get (split-with (split? str) strings) 1))
+
+(defn- singleMapWAll
+  "Produces a producer function that maps the matching function
+  with a to all elements after a."
+  [f strings] 
+  (fn 
+    [str1] 
+    (map (singleMap f str1) getAfterStr)))
+
+(defn match
+  "Uses the given similarity function f and matches all
+  strings with each other string once"
+  [f strings]
+  ; Applys the function produced by singleMapWAll to strings
+  ; and concatenates the result
+  (mapcat (singleMapWAll f strings) strings)) 
+</pre>
+<p>The following table provides some more information. a, b, c, d, and e are the strings to be matched. “f str1” denotes that a function “f str1” is mapped onto the corresponding string in the last row (which will be used as str2 in the matching).</p>
+<table>
+  <tr>
+    <td>
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+  (f d)
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+  (f c
+&lt;/td&gt;
+
+&lt;td&gt;
+  f c)
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+    </td>
+<pre><code>&lt;td&gt;
+&lt;/td&gt;
+
+&lt;td&gt;
+  (f b
+&lt;/td&gt;
+
+&lt;td&gt;
+  f b
+&lt;/td&gt;
+
+&lt;td&gt;
+  f b)
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+    </td>
+<pre><code>&lt;td&gt;
+  (f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a)
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      a
+    </td>
+<pre><code>&lt;td&gt;
+  b
+&lt;/td&gt;
+
+&lt;td&gt;
+  c
+&lt;/td&gt;
+
+&lt;td&gt;
+  d
+&lt;/td&gt;
+
+&lt;td&gt;
+  e
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>Whereas map would produce a mapping as above, mapcat applys the mapping and concatenates the results as displayed below.</p>
+<table>
+  <tr>
+    <td>
+    </td>
+<pre><code>&lt;td&gt;
+  (f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f a
+&lt;/td&gt;
+
+&lt;td&gt;
+  f b
+&lt;/td&gt;
+
+&lt;td&gt;
+  f b
+&lt;/td&gt;
+
+&lt;td&gt;
+  f b
+&lt;/td&gt;
+
+&lt;td&gt;
+  f c
+&lt;/td&gt;
+
+&lt;td&gt;
+  f c
+&lt;/td&gt;
+
+&lt;td&gt;
+  f d)
+&lt;/td&gt;
+</code></pre>
+  </tr>
+  <tr>
+    <td>
+      a
+    </td>
+<pre><code>&lt;td&gt;
+  b
+&lt;/td&gt;
+
+&lt;td&gt;
+  c
+&lt;/td&gt;
+
+&lt;td&gt;
+  d
+&lt;/td&gt;
+
+&lt;td&gt;
+  e
+&lt;/td&gt;
+
+&lt;td&gt;
+  c
+&lt;/td&gt;
+
+&lt;td&gt;
+  d
+&lt;/td&gt;
+
+&lt;td&gt;
+  e
+&lt;/td&gt;
+
+&lt;td&gt;
+  d
+&lt;/td&gt;
+
+&lt;td&gt;
+  e
+&lt;/td&gt;
+
+&lt;td&gt;
+  e
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p>After all matching fs are applied, we get our result tuples in one list:</p>
+<table>
+  <tr>
+    <td>
+      ([a b (f a b)]
+    </td>
+<pre><code>&lt;td&gt;
+  [a c (f a c)]
+&lt;/td&gt;
+
+&lt;td&gt;
+  &amp;#8230;
+&lt;/td&gt;
+
+&lt;td&gt;
+  [d e (f d e)])
+&lt;/td&gt;
+</code></pre>
+  </tr>
+</table>
+<p><strong>Filtering the results:</strong> This filtering step is just an intermediate step. We will use the results find good “grouping” values. Remember that a result vector has the form <code>[str1 str2 (similarity str1 str2)</code>.</p>
+<pre class="wp-code-highlight prettyprint">(defn- minSimFilterBuilder 
+  [min-sim]
+  (fn [x]
+    (&gt;= (get x 2) min-sim)))
+
+(defn- unequalName? 
+  [x]
+  (not (= (get x 0) (get x 1))))
+
+(defn cleanMatches 
+  [matches min-sim]
+   (filter (minSimFilterBuilder min-sim) 
+    (filter unequalName? matches)))
+</pre>
+<p><code>minSimFilterBuilder</code> is used to construct filter functions based on a minimum similarity value. The function <code>unequalName?</code> simply checks, if the names of the result tuple are different. The result of <code>cleanMatches</code> will then contain only matches with distinct strings that are “similar enough” for us.</p>
+<p><strong>Constructing clusters:</strong> sadg</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
+    &copy; 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
