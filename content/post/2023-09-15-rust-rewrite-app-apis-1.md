@@ -6,7 +6,6 @@ categories:
 - Projects
 date: "2023-09-15T00:15:00Z"
 title: App API Rewrite in Rust 1
-draft: true
 ---
 
 ### Motivation
