@@ -1,12 +1,7 @@
----
-author: ironjan
-categories:
-- All
-- Programming
-- Projects
-date: "2026-03-16T00:00:00Z"
-title: "General updates"
----
++++
+date = '2026-03-15T00:00:10+01:00'
+title = 'General Updates'
++++
 
 Today, the re-implementation of my APIs in Rust and the "rewrite" of my blog in hugo were both deployed.
 
