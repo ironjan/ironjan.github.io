@@ -1,166 +1,166 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projekte on </title>
-    <link>//localhost:1313/categories/projekte/</link>
-    <description>Recent content in Projekte on </description>
+    <title>Projekte on Just another blog...</title>
+    <link>http://localhost:1313/categories/Projekte/</link>
+    <description>Recent content in Projekte on Just another blog...</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Tue, 13 Jun 2017 18:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/projekte/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/Projekte/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trouble mit dem Play Store</title>
-      <link>//localhost:1313/post/2017-06-13-metal-only-removed-from-store/</link>
+      <link>http://localhost:1313/post/2017-06-13-metal-only-removed-from-store/</link>
       <pubDate>Tue, 13 Jun 2017 18:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/2017-06-13-metal-only-removed-from-store/</guid>
+      <guid>http://localhost:1313/post/2017-06-13-metal-only-removed-from-store/</guid>
       <description>&lt;p&gt;{% include image name=&amp;ldquo;google_play_notification_impersonation.png&amp;rdquo; caption=&amp;ldquo;Metal Only wurde aus Play Store entfernt&amp;rdquo; %}&lt;/p&gt;&#xA;&lt;p&gt;Eines meiner Projekte - die App für den &lt;a href=&#34;https://www.metal-only.de/&#34;&gt;Metal Only e. V.&lt;/a&gt; - wurde vor kurzem aus dem Play Store entfernt.&#xA;In diesem Post möchte ich kurz beschreiben, welche Schritte notwendig waren,&#xA;die App wieder in den Store zu bekommen.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Metal-Only App</title>
-      <link>//localhost:1313/post/2017-02-06-metal-only-app/</link>
+      <link>http://localhost:1313/post/2017-02-06-metal-only-app/</link>
       <pubDate>Mon, 06 Feb 2017 22:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/2017-02-06-metal-only-app/</guid>
-      <description>&lt;p&gt;Diese App wurde ursprünglich von den Codingspezis entwickelt und später von mir übernommen. In&#xA;&lt;a href=&#34;//localhost:1313/metal-only&#34;&gt;dieser Kategorie&lt;/a&gt; gibt es gelegentlich Neuigkeiten über die Entwicklung, geplante&#xA;Features und weiteres.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2017-02-06-metal-only-app/</guid>
+      <description>&lt;p&gt;Diese App wurde ursprünglich von den Codingspezis entwickelt und später von mir übernommen. In&#xA;&lt;a href=&#34;http://localhost:1313/metal-only&#34;&gt;dieser Kategorie&lt;/a&gt; gibt es gelegentlich Neuigkeiten über die Entwicklung, geplante&#xA;Features und weiteres.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Metal Only 0.4.16</title>
-      <link>//localhost:1313/post/2015-12-06-metal-only-0-4-16/</link>
+      <link>http://localhost:1313/post/2015-12-06-metal-only-0-4-16/</link>
       <pubDate>Sun, 06 Dec 2015 14:22:03 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-12-06-metal-only-0-4-16/</guid>
-      <description>&lt;p&gt;Nachdem &lt;a href=&#34;https://github.com/rbrtslmn&#34;&gt;rbrtslmn&lt;/a&gt; keine Zeit mehr hatte, die Entwicklung fortzuführen, habe ich die offzielle Android-App von &lt;a href=&#34;http://metal-only.de/&#34;&gt;Metal Only e.V.&lt;/a&gt; übernommen. Die neueste Änderung ist der Fix eines Absturzes, der über Google Play gemeldet wurde.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2015/12/metal-only-release-0.4.16.apk&#34;&gt;metal-only-release-0.4.16&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-12-06-metal-only-0-4-16/</guid>
+      <description>&lt;p&gt;Nachdem &lt;a href=&#34;https://github.com/rbrtslmn&#34;&gt;rbrtslmn&lt;/a&gt; keine Zeit mehr hatte, die Entwicklung fortzuführen, habe ich die offzielle Android-App von &lt;a href=&#34;http://metal-only.de/&#34;&gt;Metal Only e.V.&lt;/a&gt; übernommen. Die neueste Änderung ist der Fix eines Absturzes, der über Google Play gemeldet wurde.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2015/12/metal-only-release-0.4.16.apk&#34;&gt;metal-only-release-0.4.16&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.18.6</title>
-      <link>//localhost:1313/post/2015-11-22-mensaupb-2-18-6/</link>
+      <link>http://localhost:1313/post/2015-11-22-mensaupb-2-18-6/</link>
       <pubDate>Sun, 22 Nov 2015 23:27:58 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-11-22-mensaupb-2-18-6/</guid>
-      <description>&lt;p&gt;Seit 2.15.4 gab es einige Bug-Fixes und ein paar Funktionserweiterungen. Hier eine kurze Aufführung:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bugs behoben:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ladebildschirm wurde nicht richtig gezeigt.&lt;/li&gt;&#xA;&lt;li&gt;Wenn man von einem Gericht zurück ging, kam man zur falschen Gerichte-Liste&lt;/li&gt;&#xA;&lt;li&gt;Design-Problem behoben: das Bild eines Gerichts verdeckt nicht mehr den ganzen Bildschirm wenn man das Handy quer hält (Detailansicht)&lt;/li&gt;&#xA;&lt;li&gt;Bildhintergrund in Menü-Ansicht wurde auf Tablets plötzlich größer&lt;/li&gt;&#xA;&lt;li&gt;Fehler behoben: Gerichte, die vom STW aufgetauscht wurden, werden nun auch in der App korrekt aktualisiert&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;App merkt sich nun das letzte Restaurant&lt;/li&gt;&#xA;&lt;li&gt;Erste Schritte gemacht, um Öffnungszeiten anzuzeigen. Zudem wird nun angezeigt, wenn eine Einrichtung geschlossen ist (betrifft nur Termine, die auf &lt;a href=&#34;http://studentenwerk-pb.de&#34;&gt;studentenwerk-pb.de&lt;/a&gt; veröffentlicht wurden)&lt;/li&gt;&#xA;&lt;li&gt;Anonyme Nutzungsstatistiken, um Anwendung zu optimieren&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;//localhost:1313/uploads/2015/11/MensaUPB-2.18.6.apk&#34;&gt;MensaUPB-2.18.6&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-11-22-mensaupb-2-18-6/</guid>
+      <description>&lt;p&gt;Seit 2.15.4 gab es einige Bug-Fixes und ein paar Funktionserweiterungen. Hier eine kurze Aufführung:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bugs behoben:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ladebildschirm wurde nicht richtig gezeigt.&lt;/li&gt;&#xA;&lt;li&gt;Wenn man von einem Gericht zurück ging, kam man zur falschen Gerichte-Liste&lt;/li&gt;&#xA;&lt;li&gt;Design-Problem behoben: das Bild eines Gerichts verdeckt nicht mehr den ganzen Bildschirm wenn man das Handy quer hält (Detailansicht)&lt;/li&gt;&#xA;&lt;li&gt;Bildhintergrund in Menü-Ansicht wurde auf Tablets plötzlich größer&lt;/li&gt;&#xA;&lt;li&gt;Fehler behoben: Gerichte, die vom STW aufgetauscht wurden, werden nun auch in der App korrekt aktualisiert&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;App merkt sich nun das letzte Restaurant&lt;/li&gt;&#xA;&lt;li&gt;Erste Schritte gemacht, um Öffnungszeiten anzuzeigen. Zudem wird nun angezeigt, wenn eine Einrichtung geschlossen ist (betrifft nur Termine, die auf &lt;a href=&#34;http://studentenwerk-pb.de&#34;&gt;studentenwerk-pb.de&lt;/a&gt; veröffentlicht wurden)&lt;/li&gt;&#xA;&lt;li&gt;Anonyme Nutzungsstatistiken, um Anwendung zu optimieren&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;http://localhost:1313/uploads/2015/11/MensaUPB-2.18.6.apk&#34;&gt;MensaUPB-2.18.6&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.15.4</title>
-      <link>//localhost:1313/post/2015-04-23-mensaupb-2-15-4/</link>
+      <link>http://localhost:1313/post/2015-04-23-mensaupb-2-15-4/</link>
       <pubDate>Thu, 23 Apr 2015 21:38:02 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-04-23-mensaupb-2-15-4/</guid>
-      <description>&lt;p&gt;Primär Verbesserungen im Design: &lt;a href=&#34;//localhost:1313/uploads/2015/04/MensaUPPB-2.15.4.apk&#34;&gt;MensaUPPB-2.15.4&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-04-23-mensaupb-2-15-4/</guid>
+      <description>&lt;p&gt;Primär Verbesserungen im Design: &lt;a href=&#34;http://localhost:1313/uploads/2015/04/MensaUPPB-2.15.4.apk&#34;&gt;MensaUPPB-2.15.4&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.15.0</title>
-      <link>//localhost:1313/post/2015-03-29-mensaupb-2-15-0/</link>
+      <link>http://localhost:1313/post/2015-03-29-mensaupb-2-15-0/</link>
       <pubDate>Sun, 29 Mar 2015 18:55:21 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-03-29-mensaupb-2-15-0/</guid>
-      <description>&lt;p&gt;Verbesserungen in der Oberfläche und folgende Fehler wurden behoben:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Auswahl-Kreise in Navigation entfernt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Von einem Gericht kommt man zur richtigen Kombo von “Tag &amp;amp; Restaurant” zurück&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2015/03/MensaUPB-2.15.0.apk&#34;&gt;MensaUPB-2.15.0&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-03-29-mensaupb-2-15-0/</guid>
+      <description>&lt;p&gt;Verbesserungen in der Oberfläche und folgende Fehler wurden behoben:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Auswahl-Kreise in Navigation entfernt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Von einem Gericht kommt man zur richtigen Kombo von “Tag &amp;amp; Restaurant” zurück&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2015/03/MensaUPB-2.15.0.apk&#34;&gt;MensaUPB-2.15.0&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mockup Node Detailscreen</title>
-      <link>//localhost:1313/post/2015-03-06-mockup-node-detailscreen/</link>
+      <link>http://localhost:1313/post/2015-03-06-mockup-node-detailscreen/</link>
       <pubDate>Fri, 06 Mar 2015 20:54:22 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-03-06-mockup-node-detailscreen/</guid>
-      <description>&lt;p&gt;Some mockups for a node detail screen &amp;ndash; Looking for a designer nonetheless 😉&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/wp-content/uploads/2015/03/on-205x400.png&#34; alt=&#34;Mock: online freifunk node&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/wp-content/uploads/2015/03/off-205x400.png&#34; alt=&#34;Mockup: Offline freifunk node&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-03-06-mockup-node-detailscreen/</guid>
+      <description>&lt;p&gt;Some mockups for a node detail screen &amp;ndash; Looking for a designer nonetheless 😉&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/wp-content/uploads/2015/03/on-205x400.png&#34; alt=&#34;Mock: online freifunk node&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/wp-content/uploads/2015/03/off-205x400.png&#34; alt=&#34;Mockup: Offline freifunk node&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.11.2</title>
-      <link>//localhost:1313/post/2015-02-10-mensaupb-2-11-2/</link>
+      <link>http://localhost:1313/post/2015-02-10-mensaupb-2-11-2/</link>
       <pubDate>Tue, 10 Feb 2015 19:26:47 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-02-10-mensaupb-2-11-2/</guid>
-      <description>&lt;p&gt;Kleine Fixes ggü. 2.11.1 (Feature regression)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2015/02/MensaUpb-2.11.2.apk&#34;&gt;MensaUpb-2.11.2&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-02-10-mensaupb-2-11-2/</guid>
+      <description>&lt;p&gt;Kleine Fixes ggü. 2.11.1 (Feature regression)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2015/02/MensaUpb-2.11.2.apk&#34;&gt;MensaUpb-2.11.2&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.11.1</title>
-      <link>//localhost:1313/post/2015-02-08-mensaupb-2-11-1/</link>
+      <link>http://localhost:1313/post/2015-02-08-mensaupb-2-11-1/</link>
       <pubDate>Sun, 08 Feb 2015 09:00:30 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-02-08-mensaupb-2-11-1/</guid>
-      <description>&lt;p&gt;Neu:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Infos werden nun auch auf englisch gezeigt&lt;/li&gt;&#xA;&lt;li&gt;Es wird nun eine Notiz statt einem Ladebildschirm gezeigt, wenn es an einem Tag kein Essen gibt&lt;/li&gt;&#xA;&lt;li&gt;Fehler behoben: Wechsel des Restaurants wechselt unter bestimmten Umständen den Tag&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;//localhost:1313/uploads/2015/02/MensaUPB-2.11.1.apk&#34;&gt;MensaUPB-2.11.1&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-02-08-mensaupb-2-11-1/</guid>
+      <description>&lt;p&gt;Neu:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Infos werden nun auch auf englisch gezeigt&lt;/li&gt;&#xA;&lt;li&gt;Es wird nun eine Notiz statt einem Ladebildschirm gezeigt, wenn es an einem Tag kein Essen gibt&lt;/li&gt;&#xA;&lt;li&gt;Fehler behoben: Wechsel des Restaurants wechselt unter bestimmten Umständen den Tag&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;http://localhost:1313/uploads/2015/02/MensaUPB-2.11.1.apk&#34;&gt;MensaUPB-2.11.1&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.9.0</title>
-      <link>//localhost:1313/post/2015-01-18-mensaupb-2-8-5/</link>
+      <link>http://localhost:1313/post/2015-01-18-mensaupb-2-8-5/</link>
       <pubDate>Sun, 18 Jan 2015 01:16:57 +0000</pubDate>
-      <guid>//localhost:1313/post/2015-01-18-mensaupb-2-8-5/</guid>
-      <description>&lt;p&gt;Neu: Campus Mensae in einer Liste!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2015/01/MensaUPB-2.9.0.apk&#34;&gt;MensaUPB-2.9.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Verworfen aufgrund von größerem Bug: Pull to refresh; Download: &lt;a href=&#34;//localhost:1313/uploads/2015/01/MensaUPB-2.8.5.apk&#34;&gt;MensaUPB-2.8.5&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2015-01-18-mensaupb-2-8-5/</guid>
+      <description>&lt;p&gt;Neu: Campus Mensae in einer Liste!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2015/01/MensaUPB-2.9.0.apk&#34;&gt;MensaUPB-2.9.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Verworfen aufgrund von größerem Bug: Pull to refresh; Download: &lt;a href=&#34;http://localhost:1313/uploads/2015/01/MensaUPB-2.8.5.apk&#34;&gt;MensaUPB-2.8.5&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Krombels Dashboard auf Android</title>
-      <link>//localhost:1313/post/2014-12-14-krombels-dashboard-auf-android/</link>
+      <link>http://localhost:1313/post/2014-12-14-krombels-dashboard-auf-android/</link>
       <pubDate>Sun, 14 Dec 2014 02:01:04 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-12-14-krombels-dashboard-auf-android/</guid>
-      <description>&lt;p&gt;Ein kleiner Prototyp, der &lt;a href=&#34;http://dashing.krombel.de/stats&#34; title=&#34;Krombels Dashboard&#34;&gt;Krombels Dashboard&lt;/a&gt; auf Android Geräte bringt: &lt;a href=&#34;//localhost:1313/uploads/2014/12/krombel-0.1.0.apk&#34;&gt;krombel-0.1.0&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatische Updates&lt;/li&gt;&#xA;&lt;li&gt;Benachrichtigung bei neuen Highscores&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Die App ist nicht über den Play Store verfügbar; dies wird später der Fall sein. Quellcode gibt es auf &lt;a href=&#34;https://github.com/codeforpb/ffpb-apps&#34; title=&#34;github Projekte Sammlung&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/uploads/2014/12/ffpb-krombel-device.png&#34; alt=&#34;Screenshot der Krombel Dashboard App&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-12-14-krombels-dashboard-auf-android/</guid>
+      <description>&lt;p&gt;Ein kleiner Prototyp, der &lt;a href=&#34;http://dashing.krombel.de/stats&#34; title=&#34;Krombels Dashboard&#34;&gt;Krombels Dashboard&lt;/a&gt; auf Android Geräte bringt: &lt;a href=&#34;http://localhost:1313/uploads/2014/12/krombel-0.1.0.apk&#34;&gt;krombel-0.1.0&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatische Updates&lt;/li&gt;&#xA;&lt;li&gt;Benachrichtigung bei neuen Highscores&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Die App ist nicht über den Play Store verfügbar; dies wird später der Fall sein. Quellcode gibt es auf &lt;a href=&#34;https://github.com/codeforpb/ffpb-apps&#34; title=&#34;github Projekte Sammlung&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/uploads/2014/12/ffpb-krombel-device.png&#34; alt=&#34;Screenshot der Krombel Dashboard App&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUpb 2.4.0</title>
-      <link>//localhost:1313/post/2014-11-17-mensaupb-2-4-0/</link>
+      <link>http://localhost:1313/post/2014-11-17-mensaupb-2-4-0/</link>
       <pubDate>Mon, 17 Nov 2014 22:22:18 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-11-17-mensaupb-2-4-0/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2014/11/MensaUpb-2.4.0.apk&#34;&gt;MensaUpb-2.4.0&lt;/a&gt; … mit einem ersten Blick auf das Material Design. Bisher nur die support library version angepasst.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-11-17-mensaupb-2-4-0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2014/11/MensaUpb-2.4.0.apk&#34;&gt;MensaUpb-2.4.0&lt;/a&gt; … mit einem ersten Blick auf das Material Design. Bisher nur die support library version angepasst.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.3.0</title>
-      <link>//localhost:1313/post/2014-11-14-mensaupb-2-3-0/</link>
+      <link>http://localhost:1313/post/2014-11-14-mensaupb-2-3-0/</link>
       <pubDate>Fri, 14 Nov 2014 20:19:25 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-11-14-mensaupb-2-3-0/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2014/11/MensaUPB-2.3.0.apk&#34;&gt;MensaUPB-2.3.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Schnellere Synchronisation bei erstem Start&lt;/li&gt;&#xA;&lt;li&gt;Interne Verbesserungen&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/post/2014-11-14-mensaupb-2-3-0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2014/11/MensaUPB-2.3.0.apk&#34;&gt;MensaUPB-2.3.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Schnellere Synchronisation bei erstem Start&lt;/li&gt;&#xA;&lt;li&gt;Interne Verbesserungen&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.1.9</title>
-      <link>//localhost:1313/post/2014-11-08-mensaupb-2-1-9/</link>
+      <link>http://localhost:1313/post/2014-11-08-mensaupb-2-1-9/</link>
       <pubDate>Sat, 08 Nov 2014 10:21:28 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-11-08-mensaupb-2-1-9/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2014/11/MensaUpb-2.1.9.apk&#34;&gt;MensaUPB-2.1.9&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Behoben: Manche Gerichte wurden in der Übersichtsliste fehlerhaft mit “Preis/100g” ausgezeichnet.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-11-08-mensaupb-2-1-9/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2014/11/MensaUpb-2.1.9.apk&#34;&gt;MensaUPB-2.1.9&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Behoben: Manche Gerichte wurden in der Übersichtsliste fehlerhaft mit “Preis/100g” ausgezeichnet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.1.7</title>
-      <link>//localhost:1313/post/2014-11-01-mensaupb-2-1-7/</link>
+      <link>http://localhost:1313/post/2014-11-01-mensaupb-2-1-7/</link>
       <pubDate>Sat, 01 Nov 2014 12:49:26 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-11-01-mensaupb-2-1-7/</guid>
-      <description>&lt;p&gt;Kleinere Fixes: &lt;a href=&#34;//localhost:1313/uploads/2014/11/MensaUPB-2.1.7.apk&#34;&gt;MensaUPB-2.1.7&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-11-01-mensaupb-2-1-7/</guid>
+      <description>&lt;p&gt;Kleinere Fixes: &lt;a href=&#34;http://localhost:1313/uploads/2014/11/MensaUPB-2.1.7.apk&#34;&gt;MensaUPB-2.1.7&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.1.5</title>
-      <link>//localhost:1313/post/2014-10-16-mensaupb-2-1-5/</link>
+      <link>http://localhost:1313/post/2014-10-16-mensaupb-2-1-5/</link>
       <pubDate>Thu, 16 Oct 2014 20:33:02 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-10-16-mensaupb-2-1-5/</guid>
-      <description>&lt;p&gt;Bei einigen Benutzern kam es zu einem Absturz nach dem Upgrade. Dieser wurde nun behoben: &lt;a href=&#34;//localhost:1313/uploads/2014/10/MensaUPB-2.1.5.apk&#34;&gt;MensaUPB-2.1.5&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-10-16-mensaupb-2-1-5/</guid>
+      <description>&lt;p&gt;Bei einigen Benutzern kam es zu einem Absturz nach dem Upgrade. Dieser wurde nun behoben: &lt;a href=&#34;http://localhost:1313/uploads/2014/10/MensaUPB-2.1.5.apk&#34;&gt;MensaUPB-2.1.5&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 2.1.3</title>
-      <link>//localhost:1313/post/2014-10-14-mensaupb-2-1-3/</link>
+      <link>http://localhost:1313/post/2014-10-14-mensaupb-2-1-3/</link>
       <pubDate>Tue, 14 Oct 2014 12:23:31 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-10-14-mensaupb-2-1-3/</guid>
-      <description>&lt;p&gt;Ein neues Release. Seit einiger Zeit im PlayStore, jetzt auch hier: &lt;a href=&#34;//localhost:1313/uploads/2014/10/MensaUPB-2.1.3.apk&#34;&gt;MensaUPB 2.1.3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wechsel auf neue API des Studentenwerks&lt;/li&gt;&#xA;&lt;li&gt;Einige Fehler behoben&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/post/2014-10-14-mensaupb-2-1-3/</guid>
+      <description>&lt;p&gt;Ein neues Release. Seit einiger Zeit im PlayStore, jetzt auch hier: &lt;a href=&#34;http://localhost:1313/uploads/2014/10/MensaUPB-2.1.3.apk&#34;&gt;MensaUPB 2.1.3&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wechsel auf neue API des Studentenwerks&lt;/li&gt;&#xA;&lt;li&gt;Einige Fehler behoben&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>MensaUPB Beta</title>
-      <link>//localhost:1313/post/2014-09-26-mensaupb-beta/</link>
+      <link>http://localhost:1313/post/2014-09-26-mensaupb-beta/</link>
       <pubDate>Fri, 26 Sep 2014 11:29:35 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-09-26-mensaupb-beta/</guid>
+      <guid>http://localhost:1313/post/2014-09-26-mensaupb-beta/</guid>
       <description>&lt;p&gt;Ab heute gibt es ein Beta-Release von MensaUPB mit der neuen API des Studentenwerks. Um diese zu testen, müsst ihr folgendes tun:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Tretet der &lt;a href=&#34;https://plus.google.com/communities/100748776402713947129&#34;&gt;Google+ Community&lt;/a&gt; oder der &lt;a href=&#34;https://groups.google.com/d/forum/mensa-upb-beta&#34;&gt;Beta Mailinglist&lt;/a&gt; bei.&lt;/li&gt;&#xA;&lt;li&gt;Anschließend besucht ihr &lt;a href=&#34;https://play.google.com/apps/testing/de.ironjan.mensaupb&#34;&gt;diese Seite&lt;/a&gt; und werdet Tester.&lt;/li&gt;&#xA;&lt;li&gt;Sollte die App noch nicht installiert sein, könnt ihr diese aus dem &lt;a href=&#34;https://play.google.com/store/apps/details?id=de.ironjan.mensaupb&#34;&gt;Play Store&lt;/a&gt; herunterladen.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Falls die App bereits installiert ist, entfällt der letzte Schritt: es gibt ein automatisches Update auf die Beta-Version.&lt;/p&gt;&#xA;&lt;p&gt;Ihr könnt jederzeit unter &lt;a href=&#34;https://play.google.com/apps/testing/de.ironjan.mensaupb&#34;&gt;dieser Seite&lt;/a&gt;&#xA;entscheiden, ob ihr Tester sein wollt oder nicht. Die App wechselt dann automatisch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 1.8.0</title>
-      <link>//localhost:1313/post/2014-05-24-mensaupb-1-8-0/</link>
+      <link>http://localhost:1313/post/2014-05-24-mensaupb-1-8-0/</link>
       <pubDate>Sat, 24 May 2014 14:24:34 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-05-24-mensaupb-1-8-0/</guid>
-      <description>&lt;p&gt;Auf expliziten Wunsch wurden in dieser Version die Preise hinzugefügt. Diese sind noch etwas buggy (Preise pro 100g werden ohne “pro 100g” dargestellt), jedoch sind die wichtigsten Gerichte aka Vorschlagsmenüs korrekt angezeigt.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;//localhost:1313/uploads/2014/05/MensaUPB-1.8.0.apk&#34;&gt;MensaUPB-1.8.0&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-05-24-mensaupb-1-8-0/</guid>
+      <description>&lt;p&gt;Auf expliziten Wunsch wurden in dieser Version die Preise hinzugefügt. Diese sind noch etwas buggy (Preise pro 100g werden ohne “pro 100g” dargestellt), jedoch sind die wichtigsten Gerichte aka Vorschlagsmenüs korrekt angezeigt.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/uploads/2014/05/MensaUPB-1.8.0.apk&#34;&gt;MensaUPB-1.8.0&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB 1.6.0</title>
-      <link>//localhost:1313/post/2014-04-25-menssaupb-1-6-0/</link>
+      <link>http://localhost:1313/post/2014-04-25-menssaupb-1-6-0/</link>
       <pubDate>Fri, 25 Apr 2014 23:45:27 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-04-25-menssaupb-1-6-0/</guid>
-      <description>&lt;p&gt;Neue Funktionen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatischer Wechsel zur Abendmensa zwischen 14:00 und 19:30&lt;/li&gt;&#xA;&lt;li&gt;Abendmensa hat Freitags nicht geöffnet – statt Ladebildschirm wird nun eine Notiz gezeigt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Apk: &lt;a href=&#34;//localhost:1313/uploads/2014/04/MensaUPB-1.6.0.apk&#34;&gt;MensaUPB-1.6.0&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-04-25-menssaupb-1-6-0/</guid>
+      <description>&lt;p&gt;Neue Funktionen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automatischer Wechsel zur Abendmensa zwischen 14:00 und 19:30&lt;/li&gt;&#xA;&lt;li&gt;Abendmensa hat Freitags nicht geöffnet – statt Ladebildschirm wird nun eine Notiz gezeigt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Apk: &lt;a href=&#34;http://localhost:1313/uploads/2014/04/MensaUPB-1.6.0.apk&#34;&gt;MensaUPB-1.6.0&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fachschaftsdroid 0.0.9</title>
-      <link>//localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</link>
+      <link>http://localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</link>
       <pubDate>Fri, 18 Apr 2014 07:50:50 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</guid>
-      <description>&lt;p&gt;Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: &lt;a href=&#34;//localhost:1313/uploads/2014/04/fsdroid-v0.0.9.apk&#34;&gt;fsdroid-v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</guid>
+      <description>&lt;p&gt;Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: &lt;a href=&#34;http://localhost:1313/uploads/2014/04/fsdroid-v0.0.9.apk&#34;&gt;fsdroid-v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>MensaUPB veröffentlicht</title>
-      <link>//localhost:1313/post/2014-04-17-mensaupb-veroffentlicht/</link>
+      <link>http://localhost:1313/post/2014-04-17-mensaupb-veroffentlicht/</link>
       <pubDate>Thu, 17 Apr 2014 14:21:53 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-04-17-mensaupb-veroffentlicht/</guid>
-      <description>&lt;p&gt;Vor einigen Tagen war es endlich so weit und &lt;a href=&#34;https://play.google.com/store/apps/details?id=de.ironjan.mensaupb&#34;&gt;MensaUPB&lt;/a&gt; konnte wieder im Play Store veröffentlicht werden. Auf expliziten Wunsch wird es auch hier Updates zur App geben – jedoch ohne Support.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/wp-content/uploads/2014/04/Screenshot_2014-04-10-22-57-58-225x400.png&#34; alt=&#34;Screenshot der App&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Der Quellcode des Projekts ist auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;github&lt;/a&gt; zu finden. Dieser ist zwar kompilierbar, kann jedoch kaum getestet werden, da die “geheime URL” (siehe unten) nicht weitergegeben werden darf.&lt;/p&gt;&#xA;&lt;p&gt;Das Wiederveröffentlichen der App wurde hauptsächlich dadurch möglich, dass das Studentenwerk der Universität Paderborn nun auch eine Nutzung der Speisepläne erlaubt. Zudem wurde eine explizite Schnittstelle eingerichtet, damit Entwickler die Daten nutzen können. Vor Einrichtung dieser Schnittstelle wurden “halb-öffentliche” xml-Dateien (0) heruntergeladen, die Daten wurden extrahiert und lokal gespeichert bis sie nicht mehr aktuell waren.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-04-17-mensaupb-veroffentlicht/</guid>
+      <description>&lt;p&gt;Vor einigen Tagen war es endlich so weit und &lt;a href=&#34;https://play.google.com/store/apps/details?id=de.ironjan.mensaupb&#34;&gt;MensaUPB&lt;/a&gt; konnte wieder im Play Store veröffentlicht werden. Auf expliziten Wunsch wird es auch hier Updates zur App geben – jedoch ohne Support.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/wp-content/uploads/2014/04/Screenshot_2014-04-10-22-57-58-225x400.png&#34; alt=&#34;Screenshot der App&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Der Quellcode des Projekts ist auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;github&lt;/a&gt; zu finden. Dieser ist zwar kompilierbar, kann jedoch kaum getestet werden, da die “geheime URL” (siehe unten) nicht weitergegeben werden darf.&lt;/p&gt;&#xA;&lt;p&gt;Das Wiederveröffentlichen der App wurde hauptsächlich dadurch möglich, dass das Studentenwerk der Universität Paderborn nun auch eine Nutzung der Speisepläne erlaubt. Zudem wurde eine explizite Schnittstelle eingerichtet, damit Entwickler die Daten nutzen können. Vor Einrichtung dieser Schnittstelle wurden “halb-öffentliche” xml-Dateien (0) heruntergeladen, die Daten wurden extrahiert und lokal gespeichert bis sie nicht mehr aktuell waren.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,14 @@
 theme = 'ananke'
+baseURL = 'https://ironjan.de/'
+disablePathToLower = true
+languageCode = 'en-us'
+title = 'Just another blog...'
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
 
 [menus]
   [[menus.main]]

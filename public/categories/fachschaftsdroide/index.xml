@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fachschaftsdroide on </title>
-    <link>//localhost:1313/categories/fachschaftsdroide/</link>
-    <description>Recent content in Fachschaftsdroide on </description>
+    <title>Fachschaftsdroide on Just another blog...</title>
+    <link>http://localhost:1313/categories/Fachschaftsdroide/</link>
+    <description>Recent content in Fachschaftsdroide on Just another blog...</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 18 Apr 2014 07:50:50 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/fachschaftsdroide/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/Fachschaftsdroide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fachschaftsdroid 0.0.9</title>
-      <link>//localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</link>
+      <link>http://localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</link>
       <pubDate>Fri, 18 Apr 2014 07:50:50 +0000</pubDate>
-      <guid>//localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</guid>
-      <description>&lt;p&gt;Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: &lt;a href=&#34;//localhost:1313/uploads/2014/04/fsdroid-v0.0.9.apk&#34;&gt;fsdroid-v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2014-04-18-fachschaftsdroid-0-0-9/</guid>
+      <description>&lt;p&gt;Ein kleiner Bugfix, der einen reproduzierbaren Absturz behebt: &lt;a href=&#34;http://localhost:1313/uploads/2014/04/fsdroid-v0.0.9.apk&#34;&gt;fsdroid-v0.0.9&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fachschaftsdroide 0.0.2</title>
-      <link>//localhost:1313/post/2013-11-20-fachschaftsdroid-0-0-2/</link>
+      <link>http://localhost:1313/post/2013-11-20-fachschaftsdroid-0-0-2/</link>
       <pubDate>Wed, 20 Nov 2013 09:10:24 +0000</pubDate>
-      <guid>//localhost:1313/post/2013-11-20-fachschaftsdroid-0-0-2/</guid>
-      <description>&lt;p&gt;Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;https://github.com/ironjan/MensaUPB&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;//localhost:1313/uploads/2013/11/fsdroid-0.0.2.apk&#34;&gt;fsdroid-0.0.2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fehlermeldungen/Feature-Wünsche bitte per Mail an mich.&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zeigt Öffnungststatus und Termin der nächsten Sitzung&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Neuigkeiten von &lt;a href=&#34;https://fsmi.uni-paderborn.de/&#34;&gt;https://fsmi.uni-paderborn.de/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Kontaktdaten der Fachschaft mit Kontaktmöglichkeit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bekannte Bugs/Ziele für die Beta:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Es gibt keine aussagekräftigen Fehlermeldungen&lt;/li&gt;&#xA;&lt;li&gt;Die Kontakt-Seite sieht nicht so aus, als würde man von dort direkt kontaktieren können; wird überarbeitet&lt;/li&gt;&#xA;&lt;li&gt;Die App ist relativ groß im Verhältnis zu den bisher implementierten Funktionen&lt;/li&gt;&#xA;&lt;li&gt;Die Status-Karte und die “Sitzungskarte” im Bereich sind noch nicht optimal und werden überarbeitet.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/post/2013-11-20-fachschaftsdroid-0-0-2/</guid>
+      <description>&lt;p&gt;Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;https://github.com/ironjan/MensaUPB&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;http://localhost:1313/uploads/2013/11/fsdroid-0.0.2.apk&#34;&gt;fsdroid-0.0.2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fehlermeldungen/Feature-Wünsche bitte per Mail an mich.&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zeigt Öffnungststatus und Termin der nächsten Sitzung&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Neuigkeiten von &lt;a href=&#34;https://fsmi.uni-paderborn.de/&#34;&gt;https://fsmi.uni-paderborn.de/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Kontaktdaten der Fachschaft mit Kontaktmöglichkeit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bekannte Bugs/Ziele für die Beta:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Es gibt keine aussagekräftigen Fehlermeldungen&lt;/li&gt;&#xA;&lt;li&gt;Die Kontakt-Seite sieht nicht so aus, als würde man von dort direkt kontaktieren können; wird überarbeitet&lt;/li&gt;&#xA;&lt;li&gt;Die App ist relativ groß im Verhältnis zu den bisher implementierten Funktionen&lt;/li&gt;&#xA;&lt;li&gt;Die Status-Karte und die “Sitzungskarte” im Bereich sind noch nicht optimal und werden überarbeitet.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Der Fachschaftsdroide</title>
-      <link>//localhost:1313/post/2013-11-14-der-fachschaftsdroide/</link>
+      <link>http://localhost:1313/post/2013-11-14-der-fachschaftsdroide/</link>
       <pubDate>Thu, 14 Nov 2013 22:41:37 +0000</pubDate>
-      <guid>//localhost:1313/post/2013-11-14-der-fachschaftsdroide/</guid>
-      <description>&lt;p&gt;Da der Fachschaftsdroide sich nun im Alpha-Stadium befindet, musste eine Seite zum Download her – das wäre dann mein “Blog under construction.&lt;/p&gt;&#xA;&lt;p&gt;Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;https://github.com/ironjan/MensaUPB&lt;/a&gt; [0]&lt;/p&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;//localhost:1313/uploads/2013/11/fsdroid-alpha-0.0.apk&#34;&gt;fsdroid-alpha-0.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zeigt Öffnungststatus und Termin der nächsten Sitzung&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Neuigkeiten von &lt;a href=&#34;https://fsmi.uni-paderborn.de/&#34;&gt;https://fsmi.uni-paderborn.de/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Kontaktdaten der Fachschaft mit Kontaktmöglichkeit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bekannte Bugs:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Links in Neuigkeiten sind nicht klickbar&lt;/li&gt;&#xA;&lt;li&gt;Es gibt keine aussagekräftigen Fehlermeldungen&lt;/li&gt;&#xA;&lt;li&gt;Die Kontakt-Seite sieht nicht so aus, als würde man von dort direkt kontaktieren können&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;[0] Schamlose Eigenwerbung – der Downloadlink von MensaUPB is nicht mehr aktuell. Neues von MensaUPB gibts dann auch hier.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/2013-11-14-der-fachschaftsdroide/</guid>
+      <description>&lt;p&gt;Da der Fachschaftsdroide sich nun im Alpha-Stadium befindet, musste eine Seite zum Download her – das wäre dann mein “Blog under construction.&lt;/p&gt;&#xA;&lt;p&gt;Vor der Installation müssen unbekannte Quellen aktiviert werden, eine Anleitung gibts auf &lt;a href=&#34;https://github.com/ironjan/MensaUPB&#34;&gt;https://github.com/ironjan/MensaUPB&lt;/a&gt; [0]&lt;/p&gt;&#xA;&lt;p&gt;Download: &lt;a href=&#34;http://localhost:1313/uploads/2013/11/fsdroid-alpha-0.0.apk&#34;&gt;fsdroid-alpha-0.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Zeigt Öffnungststatus und Termin der nächsten Sitzung&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Neuigkeiten von &lt;a href=&#34;https://fsmi.uni-paderborn.de/&#34;&gt;https://fsmi.uni-paderborn.de/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Zeigt die Kontaktdaten der Fachschaft mit Kontaktmöglichkeit&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bekannte Bugs:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Links in Neuigkeiten sind nicht klickbar&lt;/li&gt;&#xA;&lt;li&gt;Es gibt keine aussagekräftigen Fehlermeldungen&lt;/li&gt;&#xA;&lt;li&gt;Die Kontakt-Seite sieht nicht so aus, als würde man von dort direkt kontaktieren können&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;[0] Schamlose Eigenwerbung – der Downloadlink von MensaUPB is nicht mehr aktuell. Neues von MensaUPB gibts dann auch hier.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
