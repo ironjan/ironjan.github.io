@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Cleaning some data with Clojure 3 | </title>
+    <title>Cleaning some data with Clojure 3 | Just another blog...</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
 
 Can we group multiple strings of a set by similarity?
+
 **Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
-    <meta name="generator" content="Hugo 0.147.7">
+    <meta name="generator" content="Hugo 0.157.0">
     
     
     
@@ -36,15 +37,18 @@ Can we group multiple strings of a set by similarity?
     
 
     
-      <link rel="canonical" href="//localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
+      <link rel="canonical" href="http://localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
     
 
-    <meta property="og:url" content="//localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
+    
+    
+    <meta property="og:url" content="http://localhost:1313/post/2014-12-30-cleaning-some-data-with-clojure-3/">
+  <meta property="og:site_name" content="Just another blog...">
   <meta property="og:title" content="Cleaning some data with Clojure 3">
   <meta property="og:description" content="The first post in this series was about the original problem: there is a data-set of strings with potential duplicates and many typos. The second was about computing the similarity of two strings. In this post we will focus on the question
 Can we group multiple strings of a set by similarity?
 **Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
-  <meta property="og:locale" content="en">
+  <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
     <meta property="article:published_time" content="2014-12-30T14:05:53+00:00">
@@ -65,8 +69,7 @@ Can we group multiple strings of a set by similarity?
 **Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.">
 
 	
-  </head><body class="ma0 avenir bg-near-white development">
-
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-2014-12-30-cleaning-some-data-with-clojure-3">
     
    
   
@@ -77,7 +80,7 @@ Can we group multiple strings of a set by similarity?
   <div class="flex-l center items-center justify-between">
     <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
       
-        
+        Just another blog...
       
     </a>
     <div class="flex-l items-center">
@@ -132,8 +135,8 @@ Can we group multiple strings of a set by similarity?
     <main class="pb7" role="main">
       
   
-  
-  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+
+  <article class="page-2014-12-30-cleaning-some-data-with-clojure-3 flex-l mw7 center ph3 flex-wrap justify-between">
     <header class="mt4 w-100">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
           
@@ -152,9 +155,10 @@ Can we group multiple strings of a set by similarity?
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The first post in this series was about <a href="/post/2014-12-25-cleaning-some-data-with-clojure-1/">the original problem</a>: there is a data-set of strings with potential duplicates and many typos. The second was about <a href="/post/2014-12-27-cleaning-some-data-with-clojure-2">computing the similarity of two strings</a>. In this post we will focus on the question</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><p>The first post in this series was about <a href="/post/2014-12-25-cleaning-some-data-with-clojure-1/">the original problem</a>: there is a data-set of strings with potential duplicates and many typos. The second was about <a href="/post/2014-12-27-cleaning-some-data-with-clojure-2">computing the similarity of two strings</a>. In this post we will focus on the question</p>
 <blockquote>
-<p>Can we group multiple strings of a set by similarity?</p></blockquote>
+<p>Can we group multiple strings of a set by similarity?</p>
+</blockquote>
 <p>**Matching the names: **The first step is to match the names. I hope, that the following code is documented good enough.</p>
 <pre class="wp-code-highlight prettyprint">(defn- singleMap 
   "Produces a function that takes one argument str2 and computes
@@ -420,26 +424,15 @@ Can we group multiple strings of a set by similarity?
 <ul class="pa0">
   
 </ul>
-<div class="mt6 instapaper_ignoref">
+
       
-      
-      </div>
-    </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
+    </div></article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="//localhost:1313/" >
-    &copy; 
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Just another blog... 2026 
   </a>
     <div><div class="ananke-socials"></div>
 </div>
